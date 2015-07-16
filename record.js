@@ -4,85 +4,84 @@ var sheet = {
 		BASIC CHARACTER INFORMATION
 	*/
 
-	"character_name": "  ",
+	character_name: 0,
 	
-	"player": "  ",
+	player: 0,
 	
-	"class": "  ",
+	class: 0,
 
-	"level": "  ",
+	level: 0,
 
-	"career_level": "  ",
+	career_level: 0,
 
-	"race": "  ",
+	race: 0,
 
-	"alignment": "  ",
+	alignment: 0,
 
-	"deity": "  ",
+	deity: 0,
 
-	"size": "  ",
+	size: 0,
 
-	"age": "  ",
+	age: 0,
 
-	"gender": "  ",
+	gender: 0,
+	height: 0,
 
-	"height": "  ",
+	weight: 0,
 
-	"weight": "  ",
+	eyes: 0,
 
-	"eyes": "  ",
+	hair: 0,
 
-	"hair": "  ",
-
-	"skin": "  ",
+	skin: 0,
 
 
 	/* 
 		Ability Names
 	*/
 
-	"ability_name":{
+	ability_name:{
 
-		"str": {
-			"ability_score": "  ",
-			"ability_mod": "  ",
-			"temp_score": "  ",
-			"temp_mod": "  ",
+		str: {
+			ability_score: 0,
+			ability_mod: 0,
+			temp_score: 0,
+			temp_mod: 0,
 		},
 
-		"dex": {
-			"ability_score": "  ",
-			"ability_mod": "  ",
-			"temp_score": "  ",
-			"temp_mod": "  ",
+		dex: {
+			ability_score: 0,
+			ability_mod: 0,
+			temp_score: 0,
+			temp_mod: 0,
 		},
 
-		"con": {
-			"ability_score": "  ",
-			"ability_mod": "  ",
-			"temp_score": "  ",
-			"temp_mod": "  ",
+		con: {
+			ability_score: 0,
+			ability_mod: 0,
+			temp_score: 0,
+			temp_mod: 0,
 		},
 
-		"int": {
-			"ability_score": "  ",
-			"ability_mod": "  ",
-			"temp_score": "  ",
-			"temp_mod": "  ",
+		int: {
+			ability_score: 0,
+			ability_mod: 0,
+			temp_score: 0,
+			temp_mod: 0,
 		},
 
-		"wis": {
-			"ability_score": "  ",
-			"ability_mod": "  ",
-			"temp_score": "  ",
-			"temp_mod": "  ",
+		wis: {
+			ability_score: 0,
+			ability_mod: 0,
+			temp_score: 0,
+			temp_mod: 0,
 		},
 
-		"cha": {
-			"ability_score": "  ",
-			"ability_mod": "  ",
-			"temp_score": "  ",
-			"temp_mod": "  ",
+		cha: {
+			ability_score: 0,
+			ability_mod: 0,
+			temp_score: 0,
+			temp_mod: 0,
 		},
 
 	},
@@ -92,11 +91,11 @@ var sheet = {
 		Hit Points
 	*/
 
-	"hit_points": {
+	hit_points: {
 
-		"total": "  ",
-		"current_HP": "  ",
-		"non_lethal_damage": "  ",
+		total: 0,
+		current_HP: 0,
+		non_lethal_damage: 0,
 
 	},
 
@@ -104,17 +103,17 @@ var sheet = {
 		Armor Class
 	*/
 
-	"armor_class":{
+	armor_class:{
 
-		"total": "  ",
-		"base" : "10",
-		"armor_bonus": "  ",
-		"shield_bonus": "  ",
-		"dex_mod": "  ",
-		"size_mod": "  ",
-		"natural_armor": "  ",
-		"defelection": "  ",
-		"misc_mod": "  ",
+		total: 0,
+		base : 10,
+		armor_bonus: 0,
+		shield_bonus: 0,
+		dex_mod: 0,
+		size_mod: 0,
+		natural_armor: 0,
+		defelection: 0,
+		misc_mod: 0,
 
 	},
 
@@ -123,55 +122,55 @@ var sheet = {
 		Damage reduction
 	*/
 
-	"damage_reduction": "  ",
+	damage_reduction: 0,
 
 
 	/*
 		Speed
 	*/
-	"speed": "  ",
+	speed: 0,
 
-	"touch": "  ",
+	touch: 0,
 
-	"flat-footed": "  ",
+	flat_footed: 0,
 
 	/*
 		Initiative
 	*/
-	"initiative":{
-		"total": "  ",
-		"dex_mod": "  ",
-		"misc_mod": "  ",
+	initiative:{
+		total: 0,
+		dex_mod: 0,
+		misc_mod: 0,
 	},
 
 
 	/*
 		Saving Throws
 	*/
-	"saving_throws":{
-		"fortitude": {
-			"total": "  ",
-			"base_save": "  ",
-			"ability_mod": "  ",
-			"magic_mod": "  ",
-			"misc_mod": "  ",
-			"temp_mod": "  ", 
+	saving_throws:{
+		fortitude: {
+			total: 0,
+			base_save: 0,
+			ability_mod: 0,
+			magic_mod: 0,
+			misc_mod: 0,
+			temp_mod: 0, 
 		},
-		"reflex":{
-			"total" : "  ",
-			"base_save": "  ",
-			"ability_mod": "  ",
-			"magic_mod": "  ",
-			"misc_mod": "  ",
-			"temp_mod": "  ", 
+		reflex:{
+			total : 0,
+			base_save: 0,
+			ability_mod: 0,
+			magic_mod: 0,
+			misc_mod: 0,
+			temp_mod: 0, 
 		},
-		"will": {
-			"total" : "  ",
-			"base_save": "  ",
-			"ability_mod": "  ",
-			"magic_mod": "  ",
-			"misc_mod": "  ",
-			"temp_mod": "  ", 
+		will: {
+			total : 0,
+			base_save: 0,
+			ability_mod: 0,
+			magic_mod: 0,
+			misc_mod: 0,
+			temp_mod: 0, 
 		},
 	},
 
@@ -185,25 +184,25 @@ var sheet = {
 		Base attack bonus
 	*/
 
-	"base_attack_bonus": "  ",
+	base_attack_bonus: 0,
 
 	/*
 		Spell resistance
 	*/
 
-	"spell_resistance": "  ",
+	spell_resistance: 0,
 
 
 	/*
 		Grapple
 	*/
 
-	"grapple":{
-		"total": "  ",
-		"base_attack_bonus": "  ",
-		"strength_mod": "  ",
-		"size_mod": "  ",
-		"misc_mod": "  ",
+	grapple:{
+		total: 0,
+		base_attack_bonus: 0,
+		strength_mod: 0,
+		size_mod: 0,
+		misc_mod: 0,
 	},
 
 
@@ -211,63 +210,63 @@ var sheet = {
 		Attacks
 	*/	
 
-	"attack_1":{
-		"attack": "  ",
-		"attack_bonus": "  ",
-		"damage": "  ",
-		"critical": "  ",
-		"range": "  ",
-		"type": "  ",
-		"notes": "  ",
-		"ammunation": "  ",
+	attack_1:{
+		attack: 0,
+		attack_bonus: 0,
+		damage: 0,
+		critical: 0,
+		range: 0,
+		type: 0,
+		notes: 0,
+		ammunation: 0,
 
 	},
 
-	"attack_2":{
-		"attack": "  ",
-		"attack_bonus": "  ",
-		"damage": "  ",
-		"critical": "  ",
-		"range": "  ",
-		"type": "  ",
-		"notes": "  ",
-		"ammunation": "  ",
+	attack_2:{
+		attack: 0,
+		attack_bonus: 0,
+		damage: 0,
+		critical: 0,
+		range: 0,
+		type: 0,
+		notes: 0,
+		ammunation: 0,
 
 	},
 
-	"attack_3":{
-		"attack": "  ",
-		"attack_bonus": "  ",
-		"damage": "  ",
-		"critical": "  ",
-		"range": "  ",
-		"type": "  ",
-		"notes": "  ",
-		"ammunation": "  ",
+	attack_3:{
+		attack: 0,
+		attack_bonus: 0,
+		damage: 0,
+		critical: 0,
+		range: 0,
+		type: 0,
+		notes: 0,
+		ammunation: 0,
 
 	},
 
-	"attack_4":{
-		"attack": "  ",
-		"attack_bonus": "  ",
-		"damage": "  ",
-		"critical": "  ",
-		"range": "  ",
-		"type": "  ",
-		"notes": "  ",
-		"ammunation": "  ",
+	attack_4:{
+		attack: 0,
+		attack_bonus: 0,
+		damage: 0,
+		critical: 0,
+		range: 0,
+		type: 0,
+		notes: 0,
+		ammunation: 0,
 
 	},
 
-	"attack_5":{
-		"attack": "  ",
-		"attack_bonus": "  ",
-		"damage": "  ",
-		"critical": "  ",
-		"range": "  ",
-		"type": "  ",
-		"notes": "  ",
-		"ammunation": "  ",
+	attack_5:{
+		attack: 0,
+		attack_bonus: 0,
+		damage: 0,
+		critical: 0,
+		range: 0,
+		type: 0,
+		notes: 0,
+		ammunation: 0,
 
 	},
 
@@ -276,60 +275,62 @@ var sheet = {
 		Skills
 	*/
 
-	"skills":{
+	skills:{
 
-		"appraise":{},
-		"balance":{},
-		"bluff":{},
-		"climb":{},
-		"concentration":{},
-		"craft_1":{},
-		"craft_2":{},
-		"craft_3":{},
-		"decipher_script":{},
-		"diplomacy":{},
-		"disable_device":{},
-		"disguise":{},
-		"escape_artist":{},
-		"forgery":{},
-		"gather_information":{},
-		"handle_animal":{},
-		"heal":{},
-		"hide":{},
-		"intimidate":{},
-		"jump":{},
-		"knowledge_1":{},
-		"knowledge_2":{},
-		"knowledge_3":{},
-		"knowledge_4":{},
-		"knowledge_5":{},
-		"listen":{},
-		"move_silently":{},
-		"open_lock":{},
-		"perform_1":{},
-		"perform_2":{},
-		"perform_3":{},
-		"profession_1":{},
-		"profession_2":{},
-		"ride":{},
-		"search":{},
-		"sense_motive":{},
-		"sleight_of_hand":{},
-		"spellcraft":{},
-		"spot":{},
-		"survival":{},
-		"swim":{},
-		"tumble":{},
-		"use_magic_device":{},
-		"use_rope":{},
-		"blank_1":{},
-		"blank_2":{},
-		"blank_3":{},
+		appraise:{	
+
+		},
+		balance:{},
+		bluff:{},
+		climb:{},
+		concentration:{},
+		craft_1:{},
+		craft_2:{},
+		craft_3:{},
+		decipher_script:{},
+		diplomacy:{},
+		disable_device:{},
+		disguise:{},
+		escape_artist:{},
+		forgery:{},
+		gather_information:{},
+		handle_animal:{},
+		heal:{},
+		hide:{},
+		intimidate:{},
+		jump:{},
+		knowledge_1:{},
+		knowledge_2:{},
+		knowledge_3:{},
+		knowledge_4:{},
+		knowledge_5:{},
+		listen:{},
+		move_silently:{},
+		open_lock:{},
+		perform_1:{},
+		perform_2:{},
+		perform_3:{},
+		profession_1:{},
+		profession_2:{},
+		ride:{},
+		search:{},
+		sense_motive:{},
+		sleight_of_hand:{},
+		spellcraft:{},
+		spot:{},
+		survival:{},
+		swim:{},
+		tumble:{},
+		use_magic_device:{},
+		use_rope:{},
+		blank_1:{},
+		blank_2:{},
+		blank_3:{},
 
 	},
 
 
-
+	number: 4,
 
 
 };
