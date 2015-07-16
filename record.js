@@ -278,59 +278,382 @@ var sheet = {
 	skills:{
 
 		appraise:{	
-
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
 		},
-		balance:{},
-		bluff:{},
-		climb:{},
-		concentration:{},
-		craft_1:{},
-		craft_2:{},
-		craft_3:{},
-		decipher_script:{},
-		diplomacy:{},
-		disable_device:{},
-		disguise:{},
-		escape_artist:{},
-		forgery:{},
-		gather_information:{},
-		handle_animal:{},
-		heal:{},
-		hide:{},
-		intimidate:{},
-		jump:{},
-		knowledge_1:{},
-		knowledge_2:{},
-		knowledge_3:{},
-		knowledge_4:{},
-		knowledge_5:{},
-		listen:{},
-		move_silently:{},
-		open_lock:{},
-		perform_1:{},
-		perform_2:{},
-		perform_3:{},
-		profession_1:{},
-		profession_2:{},
-		ride:{},
-		search:{},
-		sense_motive:{},
-		sleight_of_hand:{},
-		spellcraft:{},
-		spot:{},
-		survival:{},
-		swim:{},
-		tumble:{},
-		use_magic_device:{},
-		use_rope:{},
-		blank_1:{},
-		blank_2:{},
-		blank_3:{},
+		balance:{
+			key_ability: "DEX*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		bluff:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0			
+		},
+		climb:{
+			key_ability: "STR*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		concentration:{
+			key_ability: "CON",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		craft_1:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		craft_2:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		craft_3:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		decipher_script:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		diplomacy:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		disable_device:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		disguise:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		escape_artist:{
+			key_ability: "DEX*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		forgery:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		gather_information:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		handle_animal:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		heal:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		hide:{
+			key_ability: "DEX*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		intimidate:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		jump:{
+			key_ability: "STR*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		knowledge_1:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		knowledge_2:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		knowledge_3:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		knowledge_4:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		knowledge_5:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		listen:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		move_silently:{
+			key_ability: "DEX*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		open_lock:{
+			key_ability: "DEX",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		perform_1:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		perform_2:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		perform_3:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		profession_1:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		profession_2:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		ride:{
+			key_ability: "DEX",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		search:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		sense_motive:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		sleight_of_hand:{
+			key_ability: "DEX*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		spellcraft:{
+			key_ability: "INT",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		spot:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		survival:{
+			key_ability: "WIS",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		swim:{
+			key_ability: "STR*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		tumble:{
+			key_ability: "DEX*",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		use_magic_device:{
+			key_ability: "CHA",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		use_rope:{
+			key_ability: "DEX",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		blank_1:{
+			key_ability: "",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		blank_2:{
+			key_ability: "",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
+		blank_3:{
+			key_ability: "",
+			skill_mod: 0,
+			ability_mod: 0,
+			ranks: 0,
+			misc_mod: 0,
+			learned: 0
+		},
 
 	},
-
-
-	number: 4,
-
 
 };
