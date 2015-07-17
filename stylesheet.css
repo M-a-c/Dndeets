@@ -1,0 +1,61 @@
+/*Stylen on you*/
+body{
+	display: block;
+	margin: 0px;
+}
+br{
+	clear: both;
+	width: 100%;
+}
+
+div{
+	position: relative;
+	border: solid;
+	/*border-color: white;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+input{
+	width: 100%;
+}
+
+#container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	
+}
+.top{
+	  display: inline-block;
+	    width: 100%;
+}
+.left{
+	float: left;
+	margin-right:10px;
+}
+.leftNone{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.clearLine{
+	clear:both;
+	padding-top: 30px;
+}
+
+.largeLine {
+	width: 40%;
+}
+.mediumLine {
+	width: 10%;
+}
+.smallLine {
+	width: 8%;
+}
+
+
+/**/
