@@ -4,36 +4,37 @@ var sheet = {
 		BASIC CHARACTER INFORMATION
 	*/
 
-	character_name: 0,
+	character_name: "",
 	
-	player: 0,
+	player: "",
 	
-	class: 0,
+	class: "",
 
 	level: 0,
 
 	career_level: 0,
 
-	race: 0,
+	race: "",
 
-	alignment: 0,
+	alignment: "",
 
-	deity: 0,
+	deity: "",
 
 	size: 0,
 
 	age: 0,
 
-	gender: 0,
+	gender: "",
+
 	height: 0,
 
 	weight: 0,
 
-	eyes: 0,
+	eyes: "",
 
-	hair: 0,
+	hair: "",
 
-	skin: 0,
+	skin: "",
 
 
 	/* 
@@ -211,62 +212,65 @@ var sheet = {
 	*/	
 
 	attack_1:{
-		attack: 0,
+		attack: "",
 		attack_bonus: 0,
-		damage: 0,
-		critical: 0,
-		range: 0,
-		type: 0,
-		notes: 0,
+		damage: "",
+		critical: "",
+		range: "",
+		type: "",
+		notes: "",
 		ammunation: 0,
 
 	},
 
 	attack_2:{
-		attack: 0,
+		attack: "",
 		attack_bonus: 0,
-		damage: 0,
-		critical: 0,
-		range: 0,
-		type: 0,
-		notes: 0,
+		damage: "",
+		critical: "",
+		range: "",
+		type: "",
+		notes: "",
 		ammunation: 0,
 
 	},
 
 	attack_3:{
-		attack: 0,
+		attack: "",
 		attack_bonus: 0,
-		damage: 0,
-		critical: 0,
-		range: 0,
-		type: 0,
-		notes: 0,
+		damage: "",
+		critical: "",
+		range: "",
+		type: "",
+		notes: "",
 		ammunation: 0,
+
 
 	},
 
 	attack_4:{
-		attack: 0,
+		attack: "",
 		attack_bonus: 0,
-		damage: 0,
-		critical: 0,
-		range: 0,
-		type: 0,
-		notes: 0,
+		damage: "",
+		critical: "",
+		range: "",
+		type: "",
+		notes: "",
 		ammunation: 0,
+
 
 	},
 
 	attack_5:{
-		attack: 0,
+		attack: "",
 		attack_bonus: 0,
-		damage: 0,
-		critical: 0,
-		range: 0,
-		type: 0,
-		notes: 0,
+		damage: "",
+		critical: "",
+		range: "",
+		type: "",
+		notes: "",
 		ammunation: 0,
+
 
 	},
 
@@ -655,5 +659,10 @@ var sheet = {
 		},
 
 	},
+
+
+	
+
+	
 
 };
