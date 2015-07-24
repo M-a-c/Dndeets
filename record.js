@@ -1,4 +1,9 @@
 var sheet = {
+	/*
+		############################
+			START OF FIRST PAGE
+		############################
+	*/
 
 	/*
 		BASIC CHARACTER INFORMATION
@@ -661,8 +666,174 @@ var sheet = {
 	},
 
 
-	
+	/*
+		############################
+			END OF FIRST PAGE
+		############################
+	*/
 
-	
+
+	/*
+		############################
+			START OF SECOND PAGE
+		############################
+	*/
+
+
+	/*
+		Campaign
+	*/
+	campaign: " ",
+
+	/*
+		Experience
+	*/
+	experience_points : 0, 
+
+	/*
+		Gear
+	*/
+
+	gear:{
+		armor_item: {
+			name: "",
+			type: "",
+			ac_bonus: 0,
+			max_dex: 0,
+			check_penalty: 0,
+			spell_failure: 0,
+			speed: 0,
+			weight: 0,
+			special_properties: "",
+		},
+
+		shield_item: {
+			name: "",
+			ac_bonus : 0,
+			weight: 0,
+			check_penalty: 0,
+			spell_failure: 0,
+			special_properties : "",
+
+		},
+
+		protective_item_1: {
+			name: "",
+			ac_bonus: 0,
+			weight: 0,
+			special_properties: "";
+
+		}
+
+		protective_item_2: {
+			name: "",
+			ac_bonus: 0,
+			weight: 0,
+			special_properties: "";
+		} 
+		/*
+			17 items
+		*/
+		possessions: {
+			item_1:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_2:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_3:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_4:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_5:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_6:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_7:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_8:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_9:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_10:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_11:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_12:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_13:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_14:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_15:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_16:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_17:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+
+
+		}
+
+
+	}
+
+
+
+
+
+
+
+
+
 
 };
