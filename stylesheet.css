@@ -7,48 +7,107 @@ br{
 	clear: both;
 	width: 100%;
 }
-
 div{
 	position: relative;
 	border: solid;
+	/*display: block;*/
 	/*border-color: white;*/
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
 input{
 	width: 100%;
+	padding: 0px;
 }
 
 #container{
 	margin-right: auto;
 	margin-left: auto;
-	width: 80%;
+	width: 90%;
 	
 }
-.top{
-	  display: inline-block;
-	    width: 100%;
+#skills{
+	margin-right: 0px;
+	width: 40%;
+	display: table;
+	margin-right: 0px;
+	float: right;
+
+
 }
+
+.top{
+	display: inline-block;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.abilitys{
+	display: inline-block;
+	width: 31%;
+	padding:0px;
+	font-size: 0.5em; /* 14px/16=0.875em */
+}
+
+.container{
+	display:inline-block;
+	padding:0px;
+}
+
+
+.center{
+	padding:0px;
+	text-align: center;
+	display: block;
+}
+.boldWhite{
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+
 .left{
 	float: left;
 	margin-right:10px;
 }
+
+.leftSM{
+	float: left;
+	margin-right:2px;
+}
+
 .leftNone{
 	float: left;
 }
 .right{
 	float: right;
 }
-
 .clearLine{
 	clear:both;
 	padding-top: 30px;
 }
 
+
+.blackBox{
+	background-color: black;
+	border: solid;
+	padding: 0px;
+	border-color: black;
+	color: white;
+}
+
+.noBottomBorder{
+	border-bottom-color: white;
+}
+
+
 .largeLine {
 	width: 40%;
+}
+.mediumPlus{
+	width: 20%;
 }
 .mediumLine {
 	width: 10%;
@@ -57,5 +116,51 @@ input{
 	width: 8%;
 }
 
+.extraSmallLine {
+	width: 9%;
+		/*text-align:center;*/
+}
+.checkBox{
+	width: inherit;
+	padding: 3px;
+}
+.verticalText{
+	text-transform: rotate(90deg);
+	transform: rotate(90deg);
+	text-transform-origin: left top 0;
+	transform-origin: left top 0;
+}
+.inlineTable{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+.leftCol{
+	display: block;
+	position: relative;
+	float: left;
+	max-width: 40%;
+}
+.rightCol{
+	display: block;
+	position: relative;
+	float: right;
+	max-width: 65%;
+}
+.smallNumbers{
+	width: 30px;
+}
+.keyAbility{
+	width:50px;
+}
+
+
+
+.small 
+/*
+.extraSmallLine {
+	width: 4%;
+}
+*/
 
 /**/

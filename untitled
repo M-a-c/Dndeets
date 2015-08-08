@@ -1,0 +1,97 @@
+<html>
+<head>
+
+	<script type="text/javascript" src="record.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+
+		<div id="skills">
+		<!-- <div><span class="verticalText leftSM"> Class Skill</span></div> -->
+
+		<div class="inlineTable appraise">
+			<div class="leftCol">
+				<input type="checkbox" name="classSkill" class="checkBox leftSM">
+				<span class="leftSM ">APPRAISE  &#9724;</span>
+			</div>
+			<div class="rightCol">
+				<span class="leftSM keyAbility">INT</span>
+				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
+				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
+			</div>
+		</div>
+
+		<div class="inlineTable balance">
+			<div class="leftCol">
+				<input type="checkbox" name="classSkill" class="checkBox leftSM">
+				<span class="leftSM ">BALANCE  &#9724;</span>
+			</div>
+			<div class="rightCol">
+				<span class="leftSM keyAbility">DEX*</span>
+				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
+				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
+			</div>
+		</div>
+
+		<div class="inlineTable bluff">
+			<div class="leftCol">
+				<input type="checkbox" name="classSkill" class="checkBox leftSM">
+				<span class="leftSM ">BLUFF  &#9724;</span>
+			</div>
+			<div class="rightCol">
+				<span class="leftSM keyAbility">CHA</span>
+				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
+				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
+			</div>
+		</div>
+
+		<div class="inlineTable climb">
+			<div class="leftCol">
+				<input type="checkbox" name="classSkill" class="checkBox leftSM">
+				<span class="leftSM ">CLIMB  &#9724;</span>
+			</div>
+			<div class="rightCol">
+				<span class="leftSM keyAbility">STR*</span>
+				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
+				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
+			</div>
+		</div>
+
+		<div class="inlineTable concentration">
+			<div class="leftCol">
+				<input type="checkbox" name="classSkill" class="checkBox leftSM">
+				<span class="leftSM ">CONCENTRATION  &#9724;</span>
+			</div>
+			<div class="rightCol">
+				<span class="leftSM keyAbility">CON</span>
+				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
+				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
+				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</body>
+</html>
