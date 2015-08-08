@@ -732,9 +732,17 @@ var sheet = {
 			special_properties: "";
 		} 
 		/*
-			17 items
+			33 items
 		*/
 		possessions: {
+			light_load: 0,
+			medium_load: 0,
+			heavy_load: 0,
+			lift_over_head: 0,
+			lift_off_ground:0,
+			push_or_drag:0,
+			total_weight: 0,
+
 			item_1:{
 				name:"",
 				pg: 0,
@@ -820,9 +828,178 @@ var sheet = {
 				pg: 0,
 				wt: 0,
 			},
+			item_18:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_19:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_20:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_21:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_22:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_23:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_24:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_25:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_26:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_27:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_28:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_29:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_30:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_31:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_32:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
+			item_33:{
+				name:"",
+				pg: 0,
+				wt: 0,
+			},
 
 
+		},
+
+		money:{
+			cp:0,
+			sp:0,
+			gp:0,
+			pp:0
 		}
+
+		/*
+			12 Feats
+		*/
+
+
+		feats:{
+
+			feat_1: "",
+			feat_2: "",
+			feat_3: "",
+			feat_4: "",
+			feat_5: "",
+			feat_6: "",
+			feat_7: "",
+			feat_8: "",
+			feat_9: "",
+			feat_10: "",
+			feat_11: "",
+			feat_12: ""
+
+		},
+
+
+	 	special_abilites:{
+
+
+			ability_1: "",
+			ability_2: "",
+			ability_3: "",
+			ability_4: "",
+			ability_5: "",
+			ability_6: "",
+			ability_7: "",
+			ability_8: "",
+			ability_9: "",
+			ability_10: "",
+			ability_11: "",
+			ability_12: "",
+			ability_13: "",
+			ability_14: "",
+			ability_15: "",
+			ability_16: "",
+			ability_17: "",
+			ability_18: "",
+			ability_19: "",
+			ability_20: "",
+			ability_21: "",
+			ability_22: "",
+			ability_23: "",
+
+
+	 	},
+
+	 	languages:{
+			lang_1: "",
+			lang_2: "",
+			lang_3: "",
+			lang_4: "",
+			lang_5: "",
+			lang_6: "",
+	 	}
+
+	 	spells:{
+	 		domain_specialty_school:"",
+	 		s0: "",
+	 		s1: "",
+	 		s2: "",
+	 		s3: "",
+	 		s4: "",
+	 		s5: "",
+	 		s6: "",
+	 		s7: "",
+	 		s8: "",
+	 		s9: "",
+	 		spell_save:0,
+	 		arcane_spell_failure: 0,
+	 		conditional_mod: 0,
+	 	}
+
+
+
 
 
 	}
