@@ -721,16 +721,16 @@ var sheet = {
 			name: "",
 			ac_bonus: 0,
 			weight: 0,
-			special_properties: "";
+			special_properties: "",
 
-		}
+		},
 
 		protective_item_2: {
 			name: "",
 			ac_bonus: 0,
 			weight: 0,
-			special_properties: "";
-		} 
+			special_properties: "",
+		},
 		/*
 			33 items
 		*/
@@ -917,7 +917,7 @@ var sheet = {
 			sp:0,
 			gp:0,
 			pp:0
-		}
+		},
 
 		/*
 			12 Feats
@@ -979,7 +979,7 @@ var sheet = {
 			lang_4: "",
 			lang_5: "",
 			lang_6: "",
-	 	}
+	 	},
 
 	 	spells:{
 	 		domain_specialty_school:"",
