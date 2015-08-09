@@ -8,89 +8,122 @@
 <body>
 
 
-		<div id="skills">
-		<!-- <div><span class="verticalText leftSM"> Class Skill</span></div> -->
+		<div id="Health">
+			<div class="container left">
+				<div class="left blackBox mediumPlus center"><span class="center boldWhite">HP</span>HIT POINTS</div>
+				<div class="extraSmallLine left">
+					<span class="boldBlack center" style="font-size:0.8em;">TOTAL</span>
+					<br>
+					<input type="text" name="total_health" id="total_health">
+				</div>
+				<div class="extraSmallLine left">
+					<span class="boldBlack center" style="font-size:0.8em;">Wounds</span>
+					<br>
+					<input type="text" name="wounds" id="wounds">
+				</div>
+				<div class="extraSmallLine left">
+					<span class="boldBlack center" style="font-size:0.8em;">Current HP</span>
+					<br>
+					<input type="text" name="current_hp" id="current_hp">
+				</div>
 
-		<div class="inlineTable appraise">
-			<div class="leftCol">
-				<input type="checkbox" name="classSkill" class="checkBox leftSM">
-				<span class="leftSM ">APPRAISE  &#9724;</span>
+				<div class="extraSmallLine left">
+					<span class="boldBlack center" style="font-size:0.8em;">Nonleatheal Damage</span>
+					<br>
+					<input type="text" name="non_leatheal_damage" id="non_leatheal_damage">
+				</div>
+
+				<div class="extraSmallLine left">
+					<span class="boldBlack center" style="font-size:1.4em;">SPEED</span>
+					<br>
+					<input type="text" name="speed" id="speed">
+				</div>
+				
 			</div>
-			<div class="rightCol">
-				<span class="leftSM keyAbility">INT</span>
-				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
-				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
+			
+			<div class="container left">
+				<div class="left blackBox mediumPlus center"><span class="center boldWhite">AC</span>ARMOR CLASS</div>
+				<div class="extraSmallLine left">
+					<input type="text" name="total_armor_Class" id="total_armor_Class">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">TOTAL</span>
+				</div>
+				<div class=" left">
+					<span class="center" style="font-size:0.em;"> = </span>
+				</div>
+
+				<div class="left">
+					<span class="boldBlack center" style="bold">10</span>
+				</div>				
+
+				<div class=" left">
+					<span class="center" style="font-size:0.8em;"> + </span>
+				</div>
+
+				<div class=" left">
+					<input type="text" name="wounds" id="wounds">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">Armor<br>Bonus</span>
+				</div>
+
+				<div class=" left">
+					<span class="center" style="font-size:0.8em;"> + </span>
+				</div>
+
+				<div class="extraSmallLine left">
+					<input type="text" name="current_hp" id="current_hp">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">Shield<br>Bonus</span>
+				</div>
+
+				<div class=" left">
+					<span class="center" style="font-size:0.8em;"> + </span>
+				</div>
+
+				<div class="extraSmallLine left">
+					<input type="text" name="non_leatheal_damage" id="non_leatheal_damage">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">DEX<br>Modifyer</span>
+				</div>
+
+				<div class=" left">
+					<span class="center" style="font-size:0.8em;"> + </span>
+				</div>
+
+				<div class="extraSmallLine left">
+					<input type="text" name="speed" id="speed">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">Size<br>Modifyer</span>
+				</div>
+
+				<div class=" left">
+					<span class="center" style="font-size:0.8em;"> + </span>
+				</div>
+
+				<div class="extraSmallLine left">
+					<input type="text" name="speed" id="speed">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">Natrual<br>Armor</span>
+				</div>
+
+				<div class=" left">
+					<span class="center" style="font-size:0.8em;"> + </span>
+				</div>
+
+				<div class="extraSmallLine left">
+					<input type="text" name="speed" id="speed">
+					<br>
+					<span class="boldBlack center" style="font-size:0.8em;">Defelection<br>Modifyer</span>
+				</div>
+
+				<div class="extraSmallLine left">
+					<span class="boldBlack center" style="font-size:0.8em;">Damage Reduction</span>
+					<br>
+					<input type="text" name="speed" id="speed">
+				</div>
+
 			</div>
 		</div>
-
-		<div class="inlineTable balance">
-			<div class="leftCol">
-				<input type="checkbox" name="classSkill" class="checkBox leftSM">
-				<span class="leftSM ">BALANCE  &#9724;</span>
-			</div>
-			<div class="rightCol">
-				<span class="leftSM keyAbility">DEX*</span>
-				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
-				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
-			</div>
-		</div>
-
-		<div class="inlineTable bluff">
-			<div class="leftCol">
-				<input type="checkbox" name="classSkill" class="checkBox leftSM">
-				<span class="leftSM ">BLUFF  &#9724;</span>
-			</div>
-			<div class="rightCol">
-				<span class="leftSM keyAbility">CHA</span>
-				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
-				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
-			</div>
-		</div>
-
-		<div class="inlineTable climb">
-			<div class="leftCol">
-				<input type="checkbox" name="classSkill" class="checkBox leftSM">
-				<span class="leftSM ">CLIMB  &#9724;</span>
-			</div>
-			<div class="rightCol">
-				<span class="leftSM keyAbility">STR*</span>
-				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
-				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
-			</div>
-		</div>
-
-		<div class="inlineTable concentration">
-			<div class="leftCol">
-				<input type="checkbox" name="classSkill" class="checkBox leftSM">
-				<span class="leftSM ">CONCENTRATION  &#9724;</span>
-			</div>
-			<div class="rightCol">
-				<span class="leftSM keyAbility">CON</span>
-				<div class="smallNumbers leftSM"><input type="number" name="SkillMod" class="smallNumbers"></div><span class="leftSM">=</span>
-				<div class="smallNumbers leftSM"><input type="number" name="AbilityMod" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftSM"><input type="number" name="Ranks" class="smallNumbers"></div><span class="leftSM">+</span>
-				<div class="smallNumbers leftNone"><input type="number" name="MiscMod" class="smallNumbers"></div>
-			</div>
-		</div>
-
-
-
-
-
-
-	</div>
-
-
-
-
 
 
 </body>

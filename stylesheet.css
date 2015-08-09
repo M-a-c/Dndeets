@@ -34,8 +34,17 @@ input{
 	display: table;
 	margin-right: 0px;
 	float: right;
+}
+#Health{
+	margin-right: 0px;
+	width: 68%;
+	display: table;
+	margin-right: 0px;
+	float: right;
 
-
+}
+#Bar{
+	
 }
 
 .top{
@@ -63,10 +72,16 @@ input{
 	text-align: center;
 	display: block;
 }
+
 .boldWhite{
 	font-size: 1.5vw;
 	font-weight: bold;
 }
+
+.boldBlack{
+	font-weight: bold;
+}
+
 
 .left{
 	float: left;
@@ -88,7 +103,6 @@ input{
 	clear:both;
 	padding-top: 30px;
 }
-
 
 .blackBox{
 	background-color: black;
