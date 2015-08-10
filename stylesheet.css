@@ -30,21 +30,30 @@ input{
 }
 #skills{
 	margin-right: 0px;
-	width: 40%;
+	width: 58%;
 	display: table;
 	margin-right: 0px;
 	float: right;
 }
 #Health{
 	margin-right: 0px;
-	width: 68%;
+	width: 100%;
 	display: table;
 	margin-right: 0px;
 	float: right;
 
 }
-#Bar{
-	
+#TFI{
+	width: 40%;
+	margin-right: 0px;
+	display: block;
+	margin-right: 0px;
+	float: left;
+}
+#Saves{
+	width: 58%;
+	display: table;
+	float: left;
 }
 
 .top{
@@ -64,8 +73,13 @@ input{
 .container{
 	display:inline-block;
 	padding:0px;
+	width: 100%;
 }
-
+.containerBlock{
+	display:block;
+	padding:0px;
+	width: 100%;
+}
 
 .center{
 	padding:0px;
@@ -131,7 +145,7 @@ input{
 }
 
 .extraSmallLine {
-	width: 9%;
+	width: 14%;
 		/*text-align:center;*/
 }
 .checkBox{
@@ -167,7 +181,9 @@ input{
 .keyAbility{
 	width:50px;
 }
-
+.smallPad{
+	margin-top: 10px;
+}
 
 
 .small 
