@@ -8,25 +8,43 @@
 <body>
 
 
+
 		<div id="Saves">
-		<div class="container">
-			<div class="extraSmallLine left" style="border: solid; padding: 0px;border-color: white; width: 20%; padding-top:10px;">ABILITY NAME</div>
-			<div class="extraSmallLine left center">ABILITY<br>SCORE</div>
-			<div class="extraSmallLine left center">ABILITY<br>MODIFIER</div>
-			<div class="extraSmallLine left center">TEMPORARY<br>SCORE</div>
-			<div class="extraSmallLine left center">TEMPORARY<br>MODIFIER</div>
-		</div>
-		<!-- 6 ABILITYES -->
-		<div class="container" style="padding-top:2px;">
-<div class="left blackBox mediumPlus center"><span class="center boldWhite">FORTITUDE</span>(CONSTITUTION)</div>
-					<div class=" leftSM" style="width: 6%;">
+			<div class="containerBlockSM leftNone">
+				<div class="container">
+					<div class="extraSmallLine boldBlack center left" style="border: solid; padding: 0px;border-color: white; width: 23%; padding-top:10px; font-size:0.8em;">SAVING THROWS</div>
+					<div class="savingText leftSM center boldBlack" style="width: 8%; font-size:.9em;">Total</div>
+					<div class=" leftSM">
+						<span class="center hidden" style="font-size:0.8em;"> = </span>
+					</div>
+					<div class="savingText leftSM center" style="width: 8%;">BASE<br>SAVE</div>
+					<div class=" leftSM">
+						<span class="center hidden" style="font-size:0.8em;"> + </span>
+					</div>
+					<div class="savingText leftSM center" style="width: 8%;">ABILITY<br>MODIFIER</div>
+					<div class=" leftSM">
+						<span class="center hidden" style="font-size:0.8em;"> + </span>
+					</div>
+					<div class="savingText leftSM center" style="width: 8%;">MAGIC<br>MODIFIER</div>
+					<div class=" leftSM">
+						<span class="center hidden" style="font-size:0.8em;"> + </span>
+					</div>
+					<div class="savingText leftSM center" style="width: 8%;">MISC<br>MODIFIER</div>
+					<div class=" leftSM">
+						<span class="center hidden" style="font-size:0.8em;"> + </span>
+					</div>
+					<div class="savingText leftSM center" style="width: 8%;">TEMPORARY<br>MODIFIER</div>
+				</div>
+				<div class="container" style="padding-top:2px;">
+					<div class="left blackBox center" style="width: 23%;"><span class="center boldWhite">FORTITUDE</span><span style="font-size:0.5em;">(CONSTITUTION)</span></div>
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="total_armor_Class" id="total_armor_Class">
 					</div>
 					<div class=" leftSM">
 						<span class="center" style="font-size:0.8em;"> = </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="wounds" id="wounds">
 					</div>
 
@@ -34,7 +52,7 @@
 						<span class="center" style="font-size:0.8em;"> + </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="current_hp" id="current_hp">
 					</div>
 
@@ -42,7 +60,7 @@
 						<span class="center" style="font-size:0.8em;"> + </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="non_leatheal_damage" id="non_leatheal_damage">
 					</div>
 
@@ -50,7 +68,7 @@
 						<span class="center" style="font-size:0.8em;"> + </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="speed" id="speed">
 					</div>
 
@@ -58,7 +76,45 @@
 						<span class="center" style="font-size:0.8em;"> + </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="speed" id="speed">
+					</div>
+				</div>
+
+				<div class="container" style="padding-top:2px;">
+					<div class="left blackBox center" style="width: 23%;"><span class="center boldWhite">REFLEX</span><span style="font-size:0.5em;">(DEXTERITY)</span></div>
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="total_armor_Class" id="total_armor_Class">
+					</div>
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> = </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="wounds" id="wounds">
+					</div>
+
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> + </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="current_hp" id="current_hp">
+					</div>
+
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> + </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="non_leatheal_damage" id="non_leatheal_damage">
+					</div>
+
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> + </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="speed" id="speed">
 					</div>
 
@@ -66,7 +122,45 @@
 						<span class="center" style="font-size:0.8em;"> + </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="speed" id="speed">
+					</div>
+				</div>
+
+				<div class="container" style="padding-top:2px;">
+					<div class="left blackBox center" style="width: 23%;"><span class="center boldWhite">WILL</span><span style="font-size:0.5em;">(WISDOM)</span></div>
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="total_armor_Class" id="total_armor_Class">
+					</div>
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> = </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="wounds" id="wounds">
+					</div>
+
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> + </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="current_hp" id="current_hp">
+					</div>
+
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> + </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
+						<input type="number" name="non_leatheal_damage" id="non_leatheal_damage">
+					</div>
+
+					<div class=" leftSM">
+						<span class="center" style="font-size:0.8em;"> + </span>
+					</div>
+
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="speed" id="speed">
 					</div>
 
@@ -74,52 +168,14 @@
 						<span class="center" style="font-size:0.8em;"> + </span>
 					</div>
 
-					<div class=" leftSM" style="width: 5%;">
+					<div class=" leftSM" style="width: 8%;">
 						<input type="number" name="speed" id="speed">
 					</div>
+				</div>
+			</div>
+			<div style="border:solid; float:right; width:24%;"><span style="font-size:0.8em;">CONDITIONAL MODIFIERS</span><br><textarea wrap="hard" style=" resize: none; width:100%; height:160px;"></textarea></div></div>
 		</div>
 
-		<div class="container" style="padding-top:2px;">
-			<div class="left blackBox mediumPlus center"><span class="center boldWhite">DEX</span> DEXTERITY</div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="DEX_Score"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="DEX_Modifyer"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="DEX_Temp_Score"></div>
-			<div class="extraSmallLine smallPad leftNone"><input type="number" name="DEX_Temp_Modifyer"></div>
-		</div>
-
-		<div class="container" style="padding-top:2px;">
-			<div class="left blackBox mediumPlus center"><span class="center boldWhite">CON</span> CONSTITUTION</div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CON_Score"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CON_Modifyer"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CON_Temp_Score"></div>
-			<div class="extraSmallLine smallPad leftNone"><input type="number" name="CON_Temp_Modifyer"></div>
-		</div>
-
-		<div class="container" style="padding-top:2px;">
-			<div class="left blackBox mediumPlus center"><span class="center boldWhite">INT</span> INTELLIGENCE</div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CON_Score"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CON_Modifyer"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CON_Temp_Score"></div>
-			<div class="extraSmallLine smallPad leftNone"><input type="number" name="CON_Temp_Modifyer"></div>
-		</div>
-
-		<div class="container" style="padding-top:2px;">
-			<div class="left blackBox mediumPlus center"><span class="center boldWhite">WIS</span> WISDOM</div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="WIS_Score"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="WIS_Modifyer"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="WIS_Temp_Score"></div>
-			<div class="extraSmallLine smallPad leftNone"><input type="number" name="WIS_Temp_Modifyer"></div>
-		</div>
-
-		<div class="container" style="padding-top:2px;">
-			<div class="left blackBox mediumPlus center"><span class="center boldWhite">CHA</span> CHARISMA</div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CHA_Score"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CHA_Modifyer"></div>
-			<div class="extraSmallLine smallPad left"><input type="number" name="CHA_Temp_Score"></div>
-			<div class="extraSmallLine smallPad leftNone"><input type="number" name="CHA_Temp_Modifyer"></div>
-		</div>
-
-	</div>
 
 </body>
 </html>

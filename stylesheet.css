@@ -9,7 +9,7 @@ br{
 }
 div{
 	position: relative;
-	border: solid;
+	/*border: solid;*/
 	/*display: block;*/
 	/*border-color: white;*/
 	/*padding-left: 10px;*/
@@ -29,8 +29,9 @@ input{
 	
 }
 #skills{
+	margin-top:-100px;
 	margin-right: 0px;
-	width: 58%;
+	width: 40%;
 	display: table;
 	margin-right: 0px;
 	float: right;
@@ -51,9 +52,10 @@ input{
 	float: left;
 }
 #Saves{
-	width: 58%;
+	width: 59%;
 	display: table;
 	float: left;
+	padding-top:10px;
 }
 
 .top{
@@ -75,10 +77,23 @@ input{
 	padding:0px;
 	width: 100%;
 }
+.containerSM{
+	display:inline-block;
+	padding:0px;
+	width: 100%;
+}
 .containerBlock{
 	display:block;
 	padding:0px;
 	width: 100%;
+}
+.containerBlockSM{
+	display:block;
+	padding:0px;
+	width: 74%;
+}
+.savingText{
+	font-size: .4em;
 }
 
 .center{
@@ -184,7 +199,12 @@ input{
 .smallPad{
 	margin-top: 10px;
 }
-
+.none{
+	display:none;
+}
+.hidden{
+	visibility:hidden;
+}
 
 .small 
 /*
