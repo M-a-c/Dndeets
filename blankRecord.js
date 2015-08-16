@@ -1,3 +1,7 @@
+/*
+	THIS IS A BLANK/DEFAULT CHARACTER SHEET
+*/
+
 var sheet = {
 	/*
 		############################

@@ -1,3 +1,7 @@
+/*	
+	THIS IS A SAMPLE CHARACTER SHEET FOR TESTING
+*/
+
 var sheet = {
 	/*
 		############################
