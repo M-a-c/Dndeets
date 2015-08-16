@@ -8,7 +8,6 @@ function calculateSkills(){
 	var skill_mod;
 	var currentSkill;
 
-	var i = 0;
 	for( skill in currentSheet.skills){
 		currentSkill = document.getElementsByClassName(String(skill))[0].childNodes[3];
 
@@ -24,5 +23,34 @@ function calculateSkills(){
 		currentSkill.childNodes[3].childNodes[0].value = skill_mod;
 
 	}
+
+}
+
+
+function calculateSavingThrows(){
+
+	var currentSheet = sheet;
+
+	var baseSave;
+	var ability_mod;
+	var magic_mod;
+	var misc_mod;
+	var temp_mod;
+	var total;
+
+	for(save in currentSheet.saving_throws){
+
+		baseSave 	= currentSheet.saving_throws[String(save)].base_save;
+		ability_mod = currentSheet.saving_throws[String(save)].ability_mod;
+		magic_mod   = currentSheet.saving_throws[String(save)].magic_mod;
+		misc_mod    = currentSheet.saving_throws[String(save)].misc_mod;
+		temp_mod    = currentSheet.saving_throws[String(save)].temp_mod;
+
+		total = baseSave + ability_mod + magic_mod + misc_mod + temp_mod;
+
+		document.getElementsByName(String(save))[0].childNodes[3].childNodes[1].value  = total;
+		
+	}
+
 
 }
