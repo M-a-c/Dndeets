@@ -1,0 +1,12 @@
+TODO
+
+
+
+
+Create skill header box on first page
+	- Skill name label
+	- Key ability label
+	- Skill modifier label
+	- Ability modifier label
+	- ranks label
+	- misc modifier label

@@ -9,37 +9,37 @@ var sheet = {
 		BASIC CHARACTER INFORMATION
 	*/
 
-	character_name: "Keb",
+	character_name: "",
 	
-	player: "Kevin",
+	player: "",
 	
-	class: "Rogue",
+	class: "",
 
-	level: 2,
+	level: 0,
 
 	career_level: 0,
 
-	race: "halfing",
+	race: "",
 
-	alignment: "evil",
+	alignment: "",
 
-	deity: "something",
+	deity: "",
 
-	size: "small",
+	size: "",
 
-	age: 24,
+	age: 0,
 
-	gender: "Male",
+	gender: "",
 
-	height: 34,
+	height: 0,
 
-	weight: 35,
+	weight: 0,
 
-	eyes: "blue",
+	eyes: "",
 
-	hair: "brown",
+	hair: "",
 
-	skin: "tan",
+	skin: "",
 
 
 	/* 
