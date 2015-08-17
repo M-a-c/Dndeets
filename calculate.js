@@ -1,7 +1,10 @@
 function initCalc(){
 	calculateSkills();
 	calculateSavingThrows();
+	calculateInitiative();
+	calculateAC();
 }
+
 
 function calculateSkills(){
 	
@@ -57,5 +60,51 @@ function calculateSavingThrows(){
 		
 	}
 
+
+}
+
+
+function calculateInitiative(){
+
+	var currentSheet = sheet;
+
+	var dex_mod  = currentSheet.initiative.dex_mod;
+	var misc_mod = currentSheet.initiative.misc_mod;
+	var total;
+
+	total = dex_mod + misc_mod;
+
+	document.getElementById("TFI").childNodes[1].childNodes[17].childNodes[1].value = total;
+
+
+
+}
+
+
+function calculateAC(){
+
+	var currentSheet = sheet;
+
+	var armor_bonus;
+	var shield_bonus;
+	var dex_mod;
+	var size_mod;
+	var natural_armor;
+	var defelection;
+	var misc_mod;
+	var damage_reduction;
+	var total;
+
+	armor_bonus   = currentSheet.armor_class.armor_bonus;
+	shield_bonus  = currentSheet.armor_class.shield_bonus; 
+	dex_mod 	  = currentSheet.armor_class.dex_mod;
+	size_mod      = currentSheet.armor_class.size_mod;
+	natural_armor = currentSheet.armor_class.natural_armor;
+	defelection   = currentSheet.armor_class.defelection;
+	misc_mod      = currentSheet.armor_class.misc_mod; 
+
+
+	total = 10 + armor_bonus + shield_bonus + dex_mod + size_mod + natural_armor + defelection + misc_mod;
+	document.getElementById("Health").childNodes[3].childNodes[3].childNodes[1].value = total;
 
 }
