@@ -1,3 +1,8 @@
+function initCalc(){
+	calculateSkills();
+	calculateSavingThrows();
+}
+
 function calculateSkills(){
 	
 	var currentSheet = sheet;

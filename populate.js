@@ -1,3 +1,14 @@
+function initPopulate(){
+	populateSkills();
+	populateBio();
+	populateAbilites();
+	populateSavingThrows();
+	populateHealth();
+	populateAC();
+	populateTFI();
+}
+
+
 function populateSkills(){
 
 	var currentSheet = sheet;
@@ -102,16 +113,73 @@ function populateHealth(){
 	var current_HP;
 	var non_lethal_damage;
 	var wounds;
+	var speed;
 
 	total  = currentSheet.hit_points.total;
 	wounds = currentSheet.hit_points.wounds;
 	non_lethal_damage = currentSheet.hit_points.non_lethal_damage;
 	current_HP = currentSheet.hit_points.current_HP;
+	speed = currentSheet.speed;
 
 	document.getElementById("Health").childNodes[1].childNodes[3].childNodes[3].value = total;
 	document.getElementById("Health").childNodes[1].childNodes[5].childNodes[3].value = wounds;
 	document.getElementById("Health").childNodes[1].childNodes[7].childNodes[3].value = current_HP;
 	document.getElementById("Health").childNodes[1].childNodes[9].childNodes[3].value = non_lethal_damage;
 
+	/*
+		Setting the speed
+	*/
+	document.getElementById("Health").childNodes[1].childNodes[11].childNodes[3].value = speed;
+
+
+}
+
+function populateAC(){
+
+	var currentSheet = sheet;
+
+	var armor_bonus;
+	var shield_bonus;
+	var dex_mod;
+	var size_mod;
+	var natural_armor;
+	var defelection;
+	var misc_mod;
+	var damage_reduction;
+
+	armor_bonus   = currentSheet.armor_class.armor_bonus;
+	shield_bonus  = currentSheet.armor_class.shield_bonus; 
+	dex_mod 	  = currentSheet.armor_class.dex_mod;
+	size_mod      = currentSheet.armor_class.size_mod;
+	natural_armor = currentSheet.armor_class.natural_armor;
+	defelection   = currentSheet.armor_class.defelection;
+	misc_mod      = currentSheet.armor_class.misc_mod; 
+	damage_reduction = currentSheet.damage_reduction;
+
+	document.getElementById("Health").childNodes[3].childNodes[11].childNodes[1].value = armor_bonus;
+	document.getElementById("Health").childNodes[3].childNodes[15].childNodes[1].value = shield_bonus;
+	document.getElementById("Health").childNodes[3].childNodes[19].childNodes[1].value = dex_mod;
+	document.getElementById("Health").childNodes[3].childNodes[23].childNodes[1].value = size_mod;
+	document.getElementById("Health").childNodes[3].childNodes[27].childNodes[1].value = natural_armor;
+	document.getElementById("Health").childNodes[3].childNodes[31].childNodes[1].value = defelection;
+	document.getElementById("Health").childNodes[3].childNodes[35].childNodes[1].value = misc_mod;
+	document.getElementById("Health").childNodes[3].childNodes[37].childNodes[3].value = damage_reduction;
+}
+
+
+function populateTFI(){
+
+
+	var currentSheet = sheet;
+
+	var touch = currentSheet.touch;
+	var flat_footed = currentSheet.flat_footed;
+	var dex_mod  = currentSheet.initiative.dex_mod;
+	var misc_mod = currentSheet.initiative.misc_mod;
+
+	document.getElementById("TFI").childNodes[1].childNodes[5].childNodes[0].value = touch;
+	document.getElementById("TFI").childNodes[1].childNodes[9].childNodes[0].value = flat_footed;
+	document.getElementById("TFI").childNodes[1].childNodes[21].childNodes[1].value = dex_mod;
+	document.getElementById("TFI").childNodes[1].childNodes[25].childNodes[1].value = misc_mod;
 
 }

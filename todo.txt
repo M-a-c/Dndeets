@@ -10,3 +10,10 @@ Create skill header box on first page
 	- Ability modifier label
 	- ranks label
 	- misc modifier label
+
+
+
+
+
+Populate
+	- CONDITIONAL MODIFIERS text box

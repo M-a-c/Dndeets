@@ -118,13 +118,13 @@ var sheet = {
 
 		total: 0,
 		base : 10,
-		armor_bonus: 0,
-		shield_bonus: 0,
-		dex_mod: 0,
+		armor_bonus: 3,
+		shield_bonus: 2,
+		dex_mod: 1,
 		size_mod: 0,
-		natural_armor: 0,
-		defelection: 0,
-		misc_mod: 0,
+		natural_armor: -1,
+		defelection: -2,
+		misc_mod: -3,
 
 	},
 
@@ -133,7 +133,7 @@ var sheet = {
 		Damage reduction
 	*/
 
-	damage_reduction: 0,
+	damage_reduction: 15,
 
 
 	/*
@@ -141,17 +141,17 @@ var sheet = {
 	*/
 	speed: 0,
 
-	touch: 0,
+	touch: 3,
 
-	flat_footed: 0,
+	flat_footed: 2,
 
 	/*
 		Initiative
 	*/
 	initiative:{
 		total: 0,
-		dex_mod: 0,
-		misc_mod: 0,
+		dex_mod: 1,
+		misc_mod: 2,
 	},
 
 
