@@ -92,3 +92,26 @@ function populateSavingThrows(){
 
 
 }
+
+
+function populateHealth(){
+
+	var currentSheet = sheet;
+
+	var total;
+	var current_HP;
+	var non_lethal_damage;
+	var wounds;
+
+	total  = currentSheet.hit_points.total;
+	wounds = currentSheet.hit_points.wounds;
+	non_lethal_damage = currentSheet.hit_points.non_lethal_damage;
+	current_HP = currentSheet.hit_points.current_HP;
+
+	document.getElementById("Health").childNodes[1].childNodes[3].childNodes[3].value = total;
+	document.getElementById("Health").childNodes[1].childNodes[5].childNodes[3].value = wounds;
+	document.getElementById("Health").childNodes[1].childNodes[7].childNodes[3].value = current_HP;
+	document.getElementById("Health").childNodes[1].childNodes[9].childNodes[3].value = non_lethal_damage;
+
+
+}

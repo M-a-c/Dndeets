@@ -103,9 +103,10 @@ var sheet = {
 
 	hit_points: {
 
-		total: 0,
-		current_HP: 0,
-		non_lethal_damage: 0,
+		total: 10,
+		current_HP: 8,
+		non_lethal_damage: 7,
+		wounds: 6,
 
 	},
 

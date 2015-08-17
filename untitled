@@ -83,7 +83,7 @@
 				<div class="extraSmallLine left">
 					<input type="text" name="non_leatheal_damage" id="non_leatheal_damage">
 					<br>
-					<span class="boldBlack center" style="font-size:0.8em;">DEX<br>Modifyer</span>
+					<span class="boldBlack center" style="font-size:0.8em;">DEX<br>Modifier</span>
 				</div>
 
 				<div class=" left">
@@ -93,7 +93,7 @@
 				<div class="extraSmallLine left">
 					<input type="text" name="speed" id="speed">
 					<br>
-					<span class="boldBlack center" style="font-size:0.8em;">Size<br>Modifyer</span>
+					<span class="boldBlack center" style="font-size:0.8em;">Size<br>Modifier</span>
 				</div>
 
 				<div class=" left">
@@ -113,7 +113,7 @@
 				<div class="extraSmallLine left">
 					<input type="text" name="speed" id="speed">
 					<br>
-					<span class="boldBlack center" style="font-size:0.8em;">Defelection<br>Modifyer</span>
+					<span class="boldBlack center" style="font-size:0.8em;">Defelection<br>Modifier</span>
 				</div>
 
 				<div class="extraSmallLine left">
