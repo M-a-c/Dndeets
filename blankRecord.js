@@ -219,69 +219,71 @@ var sheet = {
 	/*
 		Attacks
 	*/	
+	attack :{ 
+		attack_1:{
+			attack: "",
+			attack_bonus: 0,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 0,
 
-	attack_1:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
+		},
 
-	},
+		attack_2:{
+			attack: "",
+			attack_bonus: 0,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 0,
 
-	attack_2:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
+		},
 
-	},
-
-	attack_3:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
-
-
-	},
-
-	attack_4:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
+		attack_3:{
+			attack: "",
+			attack_bonus: 0,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 0,
 
 
-	},
+		},
 
-	attack_5:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
+		attack_4:{
+			attack: "",
+			attack_bonus: 0,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 0,
 
 
-	},
+		},
+
+		attack_5:{
+			attack: "",
+			attack_bonus: 0,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 0,
+
+
+		},
+
+	}
 
 
 	/*

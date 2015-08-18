@@ -220,69 +220,72 @@ var sheet = {
 		Attacks
 	*/	
 
-	attack_1:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
+	attack: {
+
+		attack_1:{
+			attack: "Light Sword",
+			attack_bonus: 1,
+			damage: "3-8",
+			critical: "19/20 x 2",
+			range: 0,
+			type: "Slashing",
+			notes: "Glows in the dark",
+			ammunation: 0,
+
+		},
+
+		attack_2:{
+			attack: "Crossbow",
+			attack_bonus: 4,
+			damage: "1-4",
+			critical: "x3",
+			range: 80,
+			type: "piercing",
+			notes: "doesn't consume ammo",
+			ammunation: 50,
+
+		},
+
+		attack_3:{
+			attack: "Dager",
+			attack_bonus: 1,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 8,
+
+
+		},
+
+		attack_4:{
+			attack: "Mace",
+			attack_bonus: 3,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 3,
+
+
+		},
+
+		attack_5:{
+			attack: "Greater two-handed axe",
+			attack_bonus: 5,
+			damage: "",
+			critical: "",
+			range: 0,
+			type: "",
+			notes: "",
+			ammunation: 0,
+
+
+		}
 
 	},
-
-	attack_2:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
-
-	},
-
-	attack_3:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
-
-
-	},
-
-	attack_4:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
-
-
-	},
-
-	attack_5:{
-		attack: "",
-		attack_bonus: 0,
-		damage: "",
-		critical: "",
-		range: "",
-		type: "",
-		notes: "",
-		ammunation: 0,
-
-
-	},
-
 
 	/*
 		Skills

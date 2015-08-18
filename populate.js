@@ -7,6 +7,7 @@ function initPopulate(){
 	populateAC();
 	populateTFI();
 	populateBSRG();
+	populateAttack();
 }
 
 
@@ -219,10 +220,59 @@ function populateBSRG(){
 
 }
 
+function populateAttack(){
+
+
+	var currentSheet = sheet;
+	
+	var attack;
+	var attack_bonus;
+	var damage;
+	var critical;
+	var range;
+	var type;
+	var notes;
+	var ammo;
+
+    //1,3,5
+    //1,3,5,7
+
+    for(currentAttack in currentSheet.attack){
+
+		attack = currentSheet.attack[String(currentAttack)].attack;
+		attack_bonus = currentSheet.attack[String(currentAttack)].attack_bonus;
+		damage = currentSheet.attack[String(currentAttack)].damage;
+		critical = currentSheet.attack[String(currentAttack)].critical;
+		range = currentSheet.attack[String(currentAttack)].range;
+		type = currentSheet.attack[String(currentAttack)].type;
+		notes = currentSheet.attack[String(currentAttack)].notes;
+		ammo = currentSheet.attack[String(currentAttack)].ammunation;
+		/*
+			1st row
+		*/
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = attack;
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[1].childNodes[3].childNodes[3].childNodes[1].value = attack_bonus;
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[1].childNodes[5].childNodes[3].childNodes[1].value = damage;
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[1].childNodes[7].childNodes[3].childNodes[1].value = critical;
+
+    	/*
+    		2nd row
+    	*/
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[3].childNodes[1].childNodes[3].childNodes[1].value = range;
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[3].childNodes[3].childNodes[3].childNodes[1].value = type;
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[3].childNodes[5].childNodes[3].childNodes[1].value = notes;
+
+    	/*
+    		3rd row
+    	*/
+    	document.getElementsByClassName(String(currentAttack))[0].childNodes[5].childNodes[1].childNodes[3].childNodes[1].value = ammo;
+
+
+	}	
 
 
 
-
+}
 
 
 
