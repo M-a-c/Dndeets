@@ -8,6 +8,7 @@ function initPopulate(){
 	populateTFI();
 	populateBSRG();
 	populateAttack();
+	populateConditionalModifiers();
 }
 
 
@@ -275,8 +276,18 @@ function populateAttack(){
 }
 
 
+function populateConditionalModifiers(){
+
+	var currentSheet = sheet;
+
+	var conditional_modifiers;
+
+	conditional_modifiers = currentSheet.conditional_modifiers;
+
+	document.getElementById("conditional_modifiers").value = conditional_modifiers;
 
 
+}
 
 
 

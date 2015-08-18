@@ -186,8 +186,9 @@ var sheet = {
 
 
 	/*
-		Conditional modifiers not included for saving throws
+		Conditional Modifiers
 	*/
+	conditional_modifiers : "+2 to everything",
 
 
 	/*
