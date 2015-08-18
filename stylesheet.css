@@ -57,6 +57,18 @@ input{
 	float: left;
 	padding-top:10px;
 }
+#BSRG{
+	width: 59%;
+	display: table;
+	float: left;
+	padding-top:10px;
+}
+#attacksContainer{
+	width: 59%;
+	display: block;
+	float: left;
+	padding-top:10px;
+}
 
 .top{
 	display: inline-block;
@@ -140,6 +152,14 @@ input{
 	border-color: black;
 	color: white;
 }
+.blackBoxAttack{
+	background-color: black;
+	/*border: solid;*/
+	/*padding: 0px;*/
+	border: none;
+	border-color: black;
+	color: white;
+}
 
 .noBottomBorder{
 	border-bottom-color: white;
@@ -205,12 +225,32 @@ input{
 .hidden{
 	visibility:hidden;
 }
-
-.small 
-/*
-.extraSmallLine {
-	width: 4%;
+.fifteen{
+	width:15%;
 }
-*/
+.twenty{
+	width:20%;
+}
+.thirty{
+	width:30%;
+}
+.sixtyfive{
+	width:65%;
+}
+.attack_1{
+	padding-top:30px;
+}
+.attack_2{
+	padding-top:30px;
+}
+.attack_3{
+	padding-top:30px;
+}
+.attack_4{
+	padding-top:30px;
+}
+.attack_5{
+	padding-top:30px;
+}
 
 /**/

@@ -7,174 +7,372 @@
 
 <body>
 
-
-
-		<div id="Saves">
-			<div class="containerBlockSM leftNone">
-				<div class="container">
-					<div class="extraSmallLine boldBlack center left" style="border: solid; padding: 0px;border-color: white; width: 23%; padding-top:10px; font-size:0.8em;">SAVING THROWS</div>
-					<div class="savingText leftSM center boldBlack" style="width: 8%; font-size:.9em;">Total</div>
-					<div class=" leftSM">
-						<span class="center hidden" style="font-size:0.8em;"> = </span>
+	<div id="attacksContainer">
+		<div class="attack_1 containerBlock">
+			<div class="row_1 container">
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack</span>
 					</div>
-					<div class="savingText leftSM center" style="width: 8%;">BASE<br>SAVE</div>
-					<div class=" leftSM">
-						<span class="center hidden" style="font-size:0.8em;"> + </span>
-					</div>
-					<div class="savingText leftSM center" style="width: 8%;">ABILITY<br>MODIFIER</div>
-					<div class=" leftSM">
-						<span class="center hidden" style="font-size:0.8em;"> + </span>
-					</div>
-					<div class="savingText leftSM center" style="width: 8%;">MAGIC<br>MODIFIER</div>
-					<div class=" leftSM">
-						<span class="center hidden" style="font-size:0.8em;"> + </span>
-					</div>
-					<div class="savingText leftSM center" style="width: 8%;">MISC<br>MODIFIER</div>
-					<div class=" leftSM">
-						<span class="center hidden" style="font-size:0.8em;"> + </span>
-					</div>
-					<div class="savingText leftSM center" style="width: 8%;">TEMPORARY<br>MODIFIER</div>
-				</div>
-				<div class="container" style="padding-top:2px;">
-					<div class="left blackBox center" style="width: 23%;"><span class="center boldWhite">FORTITUDE</span><span style="font-size:0.5em;">(CONSTITUTION)</span></div>
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="total_armor_Class" id="total_armor_Class">
-					</div>
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> = </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="wounds" id="wounds">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="current_hp" id="current_hp">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="non_leatheal_damage" id="non_leatheal_damage">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="speed" id="speed">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="speed" id="speed">
+					<div class="inputfield containerBlock">
+						<input type="text" name="attack_1" id="attack_1">
 					</div>
 				</div>
-
-				<div class="container" style="padding-top:2px;">
-					<div class="left blackBox center" style="width: 23%;"><span class="center boldWhite">REFLEX</span><span style="font-size:0.5em;">(DEXTERITY)</span></div>
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="total_armor_Class" id="total_armor_Class">
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack Bonus</span>
 					</div>
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> = </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="wounds" id="wounds">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="current_hp" id="current_hp">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="non_leatheal_damage" id="non_leatheal_damage">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="speed" id="speed">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="speed" id="speed">
+					<div class="inputfield containerBlock">
+						<input type="number" name="attack_bonus_1" id="attack_bonus_1">
 					</div>
 				</div>
-
-				<div class="container" style="padding-top:2px;">
-					<div class="left blackBox center" style="width: 23%;"><span class="center boldWhite">WILL</span><span style="font-size:0.5em;">(WISDOM)</span></div>
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="total_armor_Class" id="total_armor_Class">
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Damage</span>
 					</div>
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> = </span>
+					<div class="inputfield containerBlock">
+						<input type="text" name="damage_1" id="damage_1">
 					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="wounds" id="wounds">
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Critical</span>
 					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="current_hp" id="current_hp">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="non_leatheal_damage" id="non_leatheal_damage">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="speed" id="speed">
-					</div>
-
-					<div class=" leftSM">
-						<span class="center" style="font-size:0.8em;"> + </span>
-					</div>
-
-					<div class=" leftSM" style="width: 8%;">
-						<input type="number" name="speed" id="speed">
+					<div class="inputfield containerBlock">
+						<input type="text" name="critical_1" id="critical_1">
 					</div>
 				</div>
 			</div>
-			<div style="border:solid; float:right; width:24%;"><span style="font-size:0.8em;">CONDITIONAL MODIFIERS</span><br><textarea wrap="hard" style=" resize: none; width:100%; height:160px;"></textarea></div></div>
+			<div class="row_2 container">
+				<div class="containerBlock fifteen leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Range</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="range_1" id="range_1">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Type</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="type_1" id="type_1">
+					</div>
+				</div>
+				<div class="containerBlock sixtyfive leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Notes</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="notes_1" id="notes_1">
+					</div>
+				</div>
+			</div>
+			<div class="row_3 container">
+				<div class="containerBlock">
+					<div class="blackBoxAttack containerBlock">
+						<span>Ammo</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="ammo_1" id="ammo_1">
+					</div>
+				</div>
+			</div>
 		</div>
+
+		<div class="attack_2 containerBlock">
+			<div class="row_1 container">
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="attack_2" id="attack_2">
+					</div>
+				</div>
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack Bonus</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="attack_bonus_2" id="attack_bonus_2">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Damage</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="damage_2" id="damage_2">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Critical</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="critical_2" id="critical_2">
+					</div>
+				</div>
+			</div>
+			<div class="row_2 container">
+				<div class="containerBlock fifteen leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Range</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="range_2" id="range_2">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Type</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="type_2" id="type_2">
+					</div>
+				</div>
+				<div class="containerBlock sixtyfive leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Notes</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="notes_2" id="notes_2">
+					</div>
+				</div>
+			</div>
+			<div class="row_3 container">
+				<div class="containerBlock">
+					<div class="blackBoxAttack containerBlock">
+						<span>Ammo</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="ammo_2" id="ammo_2">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="attack_3 containerBlock">
+			<div class="row_1 container">
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="attack_3" id="attack_3">
+					</div>
+				</div>
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack Bonus</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="attack_bonus_3" id="attack_bonus_3">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Damage</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="damage_3" id="damage_3">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Critical</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="critical_3" id="critical_3">
+					</div>
+				</div>
+			</div>
+			<div class="row_2 container">
+				<div class="containerBlock fifteen leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Range</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="range_3" id="range_3">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Type</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="type_3" id="type_3">
+					</div>
+				</div>
+				<div class="containerBlock sixtyfive leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Notes</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="notes_3" id="notes_3">
+					</div>
+				</div>
+			</div>
+			<div class="row_3 container">
+				<div class="containerBlock">
+					<div class="blackBoxAttack containerBlock">
+						<span>Ammo</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="ammo_3" id="ammo_3">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="attack_4 containerBlock">
+			<div class="row_1 container">
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="attack_4" id="attack_4">
+					</div>
+				</div>
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack Bonus</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="attack_bonus_4" id="attack_bonus_4">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Damage</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="damage_4" id="damage_4">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Critical</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="critical_4" id="critical_4">
+					</div>
+				</div>
+			</div>
+			<div class="row_2 container">
+				<div class="containerBlock fifteen leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Range</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="range_4" id="range_4">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Type</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="type_4" id="type_4">
+					</div>
+				</div>
+				<div class="containerBlock sixtyfive leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Notes</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="notes_4" id="notes_4">
+					</div>
+				</div>
+			</div>
+			<div class="row_3 container">
+				<div class="containerBlock">
+					<div class="blackBoxAttack containerBlock">
+						<span>Ammo</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="ammo_4" id="ammo_4">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="attack_5 containerBlock">
+			<div class="row_1 container">
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="attack_5" id="attack_5">
+					</div>
+				</div>
+				<div class="containerBlock thirty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Attack Bonus</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="attack_bonus_5" id="attack_bonus_5">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Damage</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="damage_5" id="damage_5">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Critical</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="critical_5" id="critical_5">
+					</div>
+				</div>
+			</div>
+			<div class="row_2 container">
+				<div class="containerBlock fifteen leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Range</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="range_5" id="range_5">
+					</div>
+				</div>
+				<div class="containerBlock twenty leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Type</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="type_5" id="type_5">
+					</div>
+				</div>
+				<div class="containerBlock sixtyfive leftNone">
+					<div class="blackBoxAttack containerBlock">
+						<span>Notes</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="text" name="notes_5" id="notes_5">
+					</div>
+				</div>
+			</div>
+			<div class="row_3 container">
+				<div class="containerBlock">
+					<div class="blackBoxAttack containerBlock">
+						<span>Ammo</span>
+					</div>
+					<div class="inputfield containerBlock">
+						<input type="number" name="ammo_5" id="ammo_5">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 </body>
