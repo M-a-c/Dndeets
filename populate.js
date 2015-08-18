@@ -6,6 +6,7 @@ function initPopulate(){
 	populateHealth();
 	populateAC();
 	populateTFI();
+	populateBSRG();
 }
 
 
@@ -18,7 +19,13 @@ function populateSkills(){
 	for( skill in currentSheet.skills){
 
 		currentSkill = document.getElementsByClassName(String(skill))[0].childNodes[3];
+		checkBox     = document.getElementsByClassName(String(skill))[0].childNodes[1].childNodes[1];
 
+		if(currentSheet.skills[String(skill)].learned === 1){
+			checkBox.checked = true;
+		}else{
+			checkBox.checked = false;
+		}
 
 		currentSkill.childNodes[3].childNodes[0].value  = currentSheet.skills[String(skill)].skill_mod;
 		currentSkill.childNodes[6].childNodes[0].value  = currentSheet.skills[String(skill)].ability_mod;
@@ -183,3 +190,48 @@ function populateTFI(){
 	document.getElementById("TFI").childNodes[1].childNodes[25].childNodes[1].value = misc_mod;
 
 }
+
+
+function populateBSRG(){
+
+	var currentSheet = sheet;
+	var base_attack_bonus;
+	var spell_resistance;
+
+	var strength_mod;
+	var size_mod;
+	var misc_mod;
+
+	base_attack_bonus = currentSheet.base_attack_bonus;
+	spell_resistance  = currentSheet.spell_resistance;
+	strength_mod  	  = currentSheet.grapple.strength_mod;
+	size_mod 		  = currentSheet.grapple.size_mod;
+	misc_mod		  = currentSheet.grapple.misc_mod;
+
+	document.getElementById("BSRG").childNodes[1].childNodes[3].childNodes[3].childNodes[0].value = base_attack_bonus;
+	document.getElementById("BSRG").childNodes[1].childNodes[3].childNodes[7].childNodes[0].value = spell_resistance;
+
+	document.getElementById("BSRG").childNodes[1].childNodes[13].childNodes[1].value = base_attack_bonus; 
+	document.getElementById("BSRG").childNodes[1].childNodes[17].childNodes[1].value = strength_mod;
+	document.getElementById("BSRG").childNodes[1].childNodes[21].childNodes[1].value = size_mod;
+	document.getElementById("BSRG").childNodes[1].childNodes[25].childNodes[1].value = misc_mod;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

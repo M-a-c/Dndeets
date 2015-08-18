@@ -45,7 +45,6 @@ var sheet = {
 
 	skin: "tan",
 
-
 	/* 
 		Ability Names
 	*/
@@ -195,13 +194,13 @@ var sheet = {
 		Base attack bonus
 	*/
 
-	base_attack_bonus: 0,
+	base_attack_bonus: 3,
 
 	/*
 		Spell resistance
 	*/
 
-	spell_resistance: 0,
+	spell_resistance: 5,
 
 
 	/*
@@ -211,9 +210,9 @@ var sheet = {
 	grapple:{
 		total: 0,
 		base_attack_bonus: 0,
-		strength_mod: 0,
-		size_mod: 0,
-		misc_mod: 0,
+		strength_mod: 2,
+		size_mod: 1,
+		misc_mod: -2,
 	},
 
 
@@ -377,7 +376,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		disguise:{
 			key_ability: "CHA",
@@ -385,7 +384,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		escape_artist:{
 			key_ability: "DEX*",
@@ -393,7 +392,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		forgery:{
 			key_ability: "INT",
@@ -473,7 +472,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		knowledge_4:{
 			key_ability: "INT",
@@ -481,7 +480,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		knowledge_5:{
 			key_ability: "INT",
@@ -521,7 +520,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		perform_2:{
 			key_ability: "CHA",
@@ -545,7 +544,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		profession_2:{
 			key_ability: "WIS",
@@ -561,7 +560,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		search:{
 			key_ability: "INT",
@@ -625,7 +624,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		use_magic_device:{
 			key_ability: "CHA",
@@ -633,7 +632,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		use_rope:{
 			key_ability: "DEX",
@@ -641,7 +640,7 @@ var sheet = {
 			ability_mod: 0,
 			ranks: 0,
 			misc_mod: 0,
-			learned: 0
+			learned: 1
 		},
 		blank_1:{
 			key_ability: "",

@@ -3,6 +3,7 @@ function initCalc(){
 	calculateSavingThrows();
 	calculateInitiative();
 	calculateAC();
+	calculateGrapple();
 }
 
 
@@ -77,7 +78,6 @@ function calculateInitiative(){
 	document.getElementById("TFI").childNodes[1].childNodes[17].childNodes[1].value = total;
 
 
-
 }
 
 
@@ -108,3 +108,27 @@ function calculateAC(){
 	document.getElementById("Health").childNodes[3].childNodes[3].childNodes[1].value = total;
 
 }
+
+function calculateGrapple(){
+
+	var currentSheet = sheet;
+
+	var base_attack_bonus;
+	var strength_mod;
+	var size_mod;
+	var misc_mod;
+
+	var total;
+
+	base_attack_bonus = currentSheet.base_attack_bonus;
+	strength_mod  	  = currentSheet.grapple.strength_mod;
+	size_mod 		  = currentSheet.grapple.size_mod;
+	misc_mod		  = currentSheet.grapple.misc_mod;
+
+	total = base_attack_bonus + strength_mod + size_mod + misc_mod;
+
+	document.getElementById("BSRG").childNodes[1].childNodes[9].childNodes[1].value = total;
+
+
+}
+
