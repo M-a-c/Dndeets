@@ -53,45 +53,45 @@ var sheet = {
 	ability_name:{
 
 		str: {
-			ability_score: 0,
-			ability_mod: 0,
-			temp_score: 0,
-			temp_mod: 0,
+			ability_score: 1,
+			ability_mod: 1,
+			temp_score: 1,
+			temp_mod: 1,
 		},
 
 		dex: {
-			ability_score: 0,
-			ability_mod: 0,
-			temp_score: 0,
-			temp_mod: 0,
+			ability_score: 2,
+			ability_mod: 2,
+			temp_score: 2,
+			temp_mod: 2,
 		},
 
 		con: {
-			ability_score: 0,
-			ability_mod: 0,
-			temp_score: 0,
-			temp_mod: 0,
+			ability_score: 3,
+			ability_mod: 3,
+			temp_score: 3,
+			temp_mod: 3,
 		},
 
 		int: {
-			ability_score: 0,
-			ability_mod: 0,
-			temp_score: 0,
-			temp_mod: 0,
+			ability_score: 4,
+			ability_mod: 4,
+			temp_score: 4,
+			temp_mod: 4,
 		},
 
 		wis: {
-			ability_score: 0,
-			ability_mod: 0,
-			temp_score: 0,
-			temp_mod: 0,
+			ability_score: 5,
+			ability_mod: 5,
+			temp_score: 5,
+			temp_mod: 5,
 		},
 
 		cha: {
-			ability_score: 0,
-			ability_mod: 0,
-			temp_score: 0,
-			temp_mod: 0,
+			ability_score: 6,
+			ability_mod: 6,
+			temp_score: 6,
+			temp_mod: 6,
 		},
 
 	},
