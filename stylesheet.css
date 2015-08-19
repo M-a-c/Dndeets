@@ -225,6 +225,18 @@ input{
 .hidden{
 	visibility:hidden;
 }
+.five{
+	width:5%;
+}
+.seven{
+	width:7%;
+}
+.ten{
+	width:10%;
+}
+.fourteen{
+	width:14%;
+}
 .fifteen{
 	width:15%;
 }
@@ -237,8 +249,23 @@ input{
 .thirty{
 	width:30%;
 }
+.thirtyfive{
+	width:30%;
+}
+.thirtysix{
+	width:36%;
+}
+.forty{
+	width:40%;
+}
+.fortythree{
+	width:43%;
+}
 .fortyfive{
 	width:45%;
+}
+.fifty{
+	width:50%;
 }
 .sixtyfive{
 	width:65%;
@@ -257,6 +284,18 @@ input{
 }
 .attack_5{
 	padding-top:30px;
+}
+.armor{
+	padding-top: 25px;
+}
+.shield{
+	padding-top: 25px;
+}
+.protective_item_1{
+	padding-top: 25px;
+}
+.protective_item_2{
+	padding-top: 25px;
 }
 
 /**/
