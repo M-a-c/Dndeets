@@ -11,6 +11,7 @@ function initPopulate(){
 	populateConditionalModifiers();
 	populateCampaignEXP();
 	populateGear();
+	populateOtherPossessions();
 }
 
 
@@ -388,6 +389,42 @@ function populateGear(){
 }
 
 
+function populateOtherPossessions(){
 
+	var currentSheet = sheet;
+	var item_id;
+	var item_pg;
+	var item_wt;
+
+	var itemNum;
+
+	var name;
+	var pg;
+	var wt;
+
+	for(item in currentSheet.gear.possessions.items){
+			
+
+		if(String(item).length === 6){
+			itemNum = String(item)[5];
+		}else{
+			itemNum = String(item)[5] + String(item)[6];
+		}
+
+		item_id = "item_name_" + itemNum;
+		item_pg = "item_pg_"   + itemNum;
+		item_wt = "item_wt_"   + itemNum;
+
+		name = currentSheet.gear.possessions.items[String(item)].name;
+		pg = currentSheet.gear.possessions.items[String(item)].pg;
+		wt = currentSheet.gear.possessions.items[String(item)].wt;
+
+		document.getElementById(item_id).value = name;
+		document.getElementById(item_pg).value = pg;
+		document.getElementById(item_wt).value = wt;
+
+	}
+
+}
 
 

@@ -751,172 +751,173 @@ var sheet = {
 			push_or_drag:0,
 			total_weight: 0,
 
-			item_1:{
-				name:"",
-				pg: 0,
-				wt: 0,
+			items:{
+				item_1:{
+					name:"Backpack",
+					pg: 0,
+					wt: 5,
+				},
+				item_2:{
+					name:"Candles",
+					pg: 0,
+					wt: 3,
+				},
+				item_3:{
+					name:"Deer Meet",
+					pg: 3,
+					wt: 0,
+				},
+				item_4:{
+					name:"Flint & Steel",
+					pg: 0,
+					wt: 0.5,
+				},
+				item_5:{
+					name:"Lantern",
+					pg: 0,
+					wt: 7,
+				},
+				item_6:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_7:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_8:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_9:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_10:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_11:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_12:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_13:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_14:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_15:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_16:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_17:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_18:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_19:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_20:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_21:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_22:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_23:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_24:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_25:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_26:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_27:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_28:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_29:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_30:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_31:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_32:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
+				item_33:{
+					name:"",
+					pg: 0,
+					wt: 0,
+				},
 			},
-			item_2:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_3:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_4:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_5:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_6:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_7:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_8:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_9:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_10:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_11:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_12:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_13:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_14:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_15:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_16:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_17:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_18:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_19:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_20:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_21:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_22:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_23:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_24:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_25:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_26:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_27:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_28:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_29:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_30:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_31:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_32:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-			item_33:{
-				name:"",
-				pg: 0,
-				wt: 0,
-			},
-
 
 		},
 
