@@ -14,6 +14,7 @@ function initPopulate(){
 	populateOtherPossessions();
 	populateFeats();
 	populateSpecialAbilites();
+	populateLanguages();
 }
 
 
