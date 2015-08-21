@@ -982,12 +982,12 @@ var sheet = {
 	 	},
 
 	 	languages:{
-			lang_1: "",
-			lang_2: "",
-			lang_3: "",
-			lang_4: "",
-			lang_5: "",
-			lang_6: "",
+			language_1: "",
+			language_2: "",
+			language_3: "",
+			language_4: "",
+			language_5: "",
+			language_6: "",
 	 	},
 
 	 	spells:{

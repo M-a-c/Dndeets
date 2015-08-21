@@ -12,6 +12,8 @@ function initPopulate(){
 	populateCampaignEXP();
 	populateGear();
 	populateOtherPossessions();
+	populateFeats();
+	populateSpecialAbilites();
 }
 
 
@@ -451,6 +453,21 @@ function populateSpecialAbilites(){
 		id = "special_" + String(sAbility);
 		sb = currentSheet.special_abilites[String(sAbility)];
 		document.getElementById(id).value = sb;
+	}
+
+}
+
+function populateLanguages(){
+
+	var currentSheet = sheet;
+	var lang;
+
+	for(language in currentSheet.languages){
+
+		lang = currentSheet.languages[String(language)];
+
+		document.getElementById(String(language)).value = lang;
+
 	}
 
 }
