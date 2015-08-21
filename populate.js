@@ -438,7 +438,20 @@ function populateFeats(){
 		f = currentSheet.feats[String(feat)];
 		document.getElementById(String(feat)).value = f;
 	}
+}
 
+
+function populateSpecialAbilites(){
+
+	var currentSheet = sheet;
+	var id;
+	var sb;
+
+	for(sAbility in currentSheet.special_abilites){
+		id = "special_" + String(sAbility);
+		sb = currentSheet.special_abilites[String(sAbility)];
+		document.getElementById(id).value = sb;
+	}
 
 }
 

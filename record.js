@@ -955,8 +955,8 @@ var sheet = {
 	 	special_abilites:{
 
 
-			ability_1: "",
-			ability_2: "",
+			ability_1: "Double cast",
+			ability_2: "Cone of Flames",
 			ability_3: "",
 			ability_4: "",
 			ability_5: "",
