@@ -691,12 +691,12 @@ var sheet = {
 	/*
 		Campaign
 	*/
-	campaign: " ",
+	campaign: "Something about something",
 
 	/*
 		Experience
 	*/
-	experience_points : 0, 
+	experience_points : 3506, 
 
 	/*
 		Gear
@@ -704,40 +704,40 @@ var sheet = {
 
 	gear:{
 		armor_item: {
-			name: "",
-			type: "",
-			ac_bonus: 0,
-			max_dex: 0,
-			check_penalty: 0,
-			spell_failure: 0,
-			speed: 0,
-			weight: 0,
-			special_properties: "",
+			name: "Old armor",
+			type: "leather chest",
+			ac_bonus: 2,
+			max_dex: 5,
+			check_penalty: -5,
+			spell_failure: 5,
+			speed: 20,
+			weight: 15,
+			special_properties: "-20 to all dice rolls",
 		},
 
 		shield_item: {
-			name: "",
-			ac_bonus : 0,
-			weight: 0,
-			check_penalty: 0,
-			spell_failure: 0,
-			special_properties : "",
+			name: "Dark steel shield",
+			ac_bonus : 1,
+			weight: 8,
+			check_penalty: 6,
+			spell_failure: 10,
+			special_properties : "Extra enforced buckles",
 
 		},
 
 		protective_item_1: {
-			name: "",
-			ac_bonus: 0,
-			weight: 0,
-			special_properties: "",
+			name: "Ring of Jordan",
+			ac_bonus: 25,
+			weight: 0.05,
+			special_properties: "+50 HP",
 
 		},
 
 		protective_item_2: {
-			name: "",
-			ac_bonus: 0,
-			weight: 0,
-			special_properties: "",
+			name: "Necklace of Luck",
+			ac_bonus: 2,
+			weight: 0.10,
+			special_properties: "Find 25% extra gold",
 		},
 		/*
 			33 items

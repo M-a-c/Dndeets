@@ -9,6 +9,8 @@ function initPopulate(){
 	populateBSRG();
 	populateAttack();
 	populateConditionalModifiers();
+	populateCampaignEXP();
+	populateGear();
 }
 
 
@@ -290,7 +292,100 @@ function populateConditionalModifiers(){
 }
 
 
+function populateCampaignEXP(){
 
+	var currentSheet = sheet;
+
+	var campaign;
+	var exp;
+
+
+	campaign = currentSheet.campaign;
+	exp = currentSheet.experience_points;
+
+	document.getElementsByName("campaign")[0].value = campaign;
+	document.getElementsByName("exp")[0].value = exp;
+
+}
+
+function populateGear(){
+
+
+	var currentSheet = sheet;
+
+	var name;
+	var type;
+	var ac_bonus;
+	var max_dex;
+	var check_penalty;
+	var spell_failure;
+	var speed;
+	var weight;
+	var special_properties;
+
+	name = currentSheet.gear.armor_item.name;	
+	type = currentSheet.gear.armor_item.type;
+	ac_bonus = currentSheet.gear.armor_item.ac_bonus;
+	max_dex = currentSheet.gear.armor_item.max_dex;
+	check_penalty = currentSheet.gear.armor_item.check_penalty;
+	spell_failure = currentSheet.gear.armor_item.spell_failure;
+	speed = currentSheet.gear.armor_item.speed;
+	weight = currentSheet.gear.armor_item.weight;
+	special_properties = currentSheet.gear.armor_item.special_properties;
+
+	//	armor item	1,3,5,7
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = name; 
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[3].childNodes[3].childNodes[1].value = type;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[5].childNodes[3].childNodes[1].value = ac_bonus;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[7].childNodes[3].childNodes[1].value = max_dex;
+
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[1].childNodes[3].childNodes[1].value = check_penalty; 
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[3].childNodes[3].childNodes[1].value = spell_failure;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[5].childNodes[3].childNodes[1].value = speed;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[7].childNodes[3].childNodes[1].value = weight;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[9].childNodes[3].childNodes[1].value = special_properties;
+
+	// shield item
+
+	name = currentSheet.gear.shield_item.name;
+	ac_bonus = currentSheet.gear.shield_item.ac_bonus;
+	weight = currentSheet.gear.shield_item.weight;
+	check_penalty = currentSheet.gear.shield_item.check_penalty;
+	spell_failure = currentSheet.gear.shield_item.spell_failure;
+	special_properties = currentSheet.gear.shield_item.special_properties;
+
+
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[13].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = name;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[13].childNodes[1].childNodes[3].childNodes[3].childNodes[1].value = ac_bonus;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[13].childNodes[1].childNodes[5].childNodes[3].childNodes[1].value = weight;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[13].childNodes[1].childNodes[7].childNodes[3].childNodes[1].value = check_penalty;
+
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[13].childNodes[3].childNodes[1].childNodes[3].childNodes[1].value = spell_failure;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[13].childNodes[3].childNodes[3].childNodes[3].childNodes[1].value = special_properties;
+
+	// protective item 1
+	name = currentSheet.gear.protective_item_1.name;
+	ac_bonus = currentSheet.gear.protective_item_1.ac_bonus;
+	weight = currentSheet.gear.protective_item_1.weight;
+	special_properties = currentSheet.gear.protective_item_1.special_properties;
+
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[15].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = name;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[15].childNodes[1].childNodes[3].childNodes[3].childNodes[1].value = ac_bonus;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[15].childNodes[1].childNodes[5].childNodes[3].childNodes[1].value = weight;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[15].childNodes[1].childNodes[7].childNodes[3].childNodes[1].value = special_properties;
+
+	// protective item 2
+	name = currentSheet.gear.protective_item_2.name;
+	ac_bonus = currentSheet.gear.protective_item_2.ac_bonus;
+	weight = currentSheet.gear.protective_item_2.weight;
+	special_properties = currentSheet.gear.protective_item_2.special_properties
+
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[17].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = name;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[17].childNodes[1].childNodes[3].childNodes[3].childNodes[1].value = ac_bonus;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[17].childNodes[1].childNodes[5].childNodes[3].childNodes[1].value = weight;
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[17].childNodes[1].childNodes[7].childNodes[3].childNodes[1].value = special_properties;
+
+}
 
 
 
