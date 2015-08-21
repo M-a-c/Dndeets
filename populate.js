@@ -428,3 +428,17 @@ function populateOtherPossessions(){
 }
 
 
+function populateFeats(){
+
+	var currentSheet = sheet;
+	var f;
+
+	for(feat in currentSheet.feats){
+
+		f = currentSheet.feats[String(feat)];
+		document.getElementById(String(feat)).value = f;
+	}
+
+
+}
+

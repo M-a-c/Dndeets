@@ -919,6 +919,7 @@ var sheet = {
 				},
 			},
 
+			},
 		},
 
 		money:{
@@ -935,10 +936,10 @@ var sheet = {
 
 		feats:{
 
-			feat_1: "",
-			feat_2: "",
-			feat_3: "",
-			feat_4: "",
+			feat_1: "Multi-shot",
+			feat_2: "Spike trap",
+			feat_3: "Ultra tumble",
+			feat_4: "Quick shot",
 			feat_5: "",
 			feat_6: "",
 			feat_7: "",
@@ -1006,17 +1007,6 @@ var sheet = {
 	 		arcane_spell_failure: 0,
 	 		conditional_mod: 0,
 	 	}
-
-
-
-
-
-	}
-
-
-
-
-
 
 
 
