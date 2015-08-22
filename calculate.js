@@ -132,3 +132,21 @@ function calculateGrapple(){
 
 }
 
+function calculateTotalWeightCarried(){
+
+	var currentSheet = sheet;
+
+	var totalWeightCarried = 0;
+	var wt;
+
+	for(item in currentSheet.gear.possessions.items){
+			
+		wt = currentSheet.gear.possessions.items[String(item)].wt;
+
+		totalWeightCarried += wt;
+
+	}
+
+	document.getElementById("item_total_weight").value = totalWeightCarried;
+
+}
