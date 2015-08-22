@@ -4,6 +4,7 @@ function initCalc(){
 	calculateInitiative();
 	calculateAC();
 	calculateGrapple();
+	calculateTotalWeightCarried();
 }
 
 
