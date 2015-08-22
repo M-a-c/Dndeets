@@ -9,34 +9,37 @@
 	$filename = 'blankRecord.js';
 	$searchFor = 'player';
 
-	$handle = fopen($filename,"r");
+	$handle = fopen($filename,"r+");
 	$currentLine = "";
 
 	$fWordPos;
+	$pointerLocation;
+	$stringLength;
+	$stringToWrite;
 
 	/* 
 		Reading line by line
 	*/ 
 
+
 	while(!  feof($handle)){
 
-		// echo ftell($handle);
 		$currentLine = fgets($handle);
-		// echo " : ";
-		$fWordPos = strpos($currentLine, "career_level");
-			
+		$fWordPos = strpos($currentLine, "career_level:",0);
+		// for ($x = 0; $x <= 10; $x++) {
+		//     echo "The number is: $x <br>";
+		// }
+
 		if($fWordPos){
-			echo $currentLine."<br />";
-			echo strlen($currentLine);
-
-
-			fwrite ($handle, "yup");
+		
+			$pointerLocation = ftell($handle);
+			$stringlength = strlen($currentLine);
+			$searchStringLength = strlen("career_level:");
+			fseek($handle, $pointerLocation - $stringlength + $searchStringLength + 1);
+			fwrite($handle, "25,");
 		}
 
-		// echo ftell($handle);	
-		// echo  "<br />";
-
-		// echo $currentLine. "<br />";
+		echo $currentLine. "<br />";
 
 	}
 

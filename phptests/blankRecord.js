@@ -21,7 +21,7 @@ var sheet = {
 
 	level: 0,
 
-	career_level: 0,
+	career_level:25,
 
 	race: "",
 
