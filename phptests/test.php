@@ -5,45 +5,62 @@
  <body>
 
 <?php
+	function replaceAttributeValue($searchFor, $newValue){
+		// File to load, aka character sheet
+		$filename = 'blankRecord.js';
 
-	$filename = 'blankRecord.js';
-	$searchFor = 'player';
+		// Open file to read and write, r+
+		$handle = fopen($filename,"r+");
 
-	$handle = fopen($filename,"r+");
-	$currentLine = "";
+		// Current line being read
+		$currentLine = "";
 
-	$fWordPos;
-	$pointerLocation;
-	$stringLength;
-	$stringToWrite;
+		$foundWord;
+		$pointerLocation;
+		$stringLength;
+		$stringToWrite = "";
+		$blankString = "";
 
-	/* 
-		Reading line by line
-	*/ 
-
-
-	while(!  feof($handle)){
+		while(!  feof($handle)){
 
 		$currentLine = fgets($handle);
-		$fWordPos = strpos($currentLine, "career_level:",0);
-		// for ($x = 0; $x <= 10; $x++) {
-		//     echo "The number is: $x <br>";
-		// }
+		$fWordPos = strpos($currentLine, $searchFor,0);
+
 
 		if($fWordPos){
 		
 			$pointerLocation = ftell($handle);
 			$stringlength = strlen($currentLine);
-			$searchStringLength = strlen("career_level:");
-			fseek($handle, $pointerLocation - $stringlength + $searchStringLength + 1);
-			fwrite($handle, "25,");
+			$searchStringLength = strlen($searchFor);
+			fseek($handle, $pointerLocation - $stringlength + 1);
+
+ 			$blankString = str_pad($blankString, $stringlength); 
+ 			
+			fwrite($handle, $blankString);
+
+			fseek($handle, $pointerLocation - $stringlength + 1);
+
+			$stringToWrite .= $searchFor;
+			$stringToWrite .= ": ";
+			$stringToWrite .= $newValue;
+			$stringToWrite .= ",";
+			$stringToWrite .= "\n";
+
+			fwrite($handle, $stringToWrite);
+			}
+
+			echo $currentLine. "<br />";
+
 		}
 
-		echo $currentLine. "<br />";
+		fclose($handle);
 
 	}
 
-	fclose($handle);
+
+
+	replaceAttributeValue("deity", "\"something\"");
+
 
 ?>
 

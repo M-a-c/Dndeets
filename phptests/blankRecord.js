@@ -21,14 +21,14 @@ var sheet = {
 
 	level: 0,
 
-	career_level:25,
-
-	race: "",
+	career_level: 30004,
+                                 
+	race: "eric",
 
 	alignment: "",
 
 	deity: "",
-
+				
 	size: "",
 
 	age: 0,
