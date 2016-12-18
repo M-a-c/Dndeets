@@ -9,7 +9,7 @@ function initCalc(){
 
 
 function calculateSkills(){
-	
+
 	var currentSheet = sheet;
 
 	var ability_mod;
@@ -59,7 +59,7 @@ function calculateSavingThrows(){
 		total = baseSave + ability_mod + magic_mod + misc_mod + temp_mod;
 
 		document.getElementsByName(String(save))[0].childNodes[3].childNodes[1].value  = total;
-		
+
 	}
 
 
@@ -97,12 +97,12 @@ function calculateAC(){
 	var total;
 
 	armor_bonus   = currentSheet.armor_class.armor_bonus;
-	shield_bonus  = currentSheet.armor_class.shield_bonus; 
+	shield_bonus  = currentSheet.armor_class.shield_bonus;
 	dex_mod 	  = currentSheet.armor_class.dex_mod;
 	size_mod      = currentSheet.armor_class.size_mod;
 	natural_armor = currentSheet.armor_class.natural_armor;
 	defelection   = currentSheet.armor_class.defelection;
-	misc_mod      = currentSheet.armor_class.misc_mod; 
+	misc_mod      = currentSheet.armor_class.misc_mod;
 
 
 	total = 10 + armor_bonus + shield_bonus + dex_mod + size_mod + natural_armor + defelection + misc_mod;
@@ -141,7 +141,7 @@ function calculateTotalWeightCarried(){
 	var wt;
 
 	for(item in currentSheet.gear.possessions.items){
-			
+
 		wt = currentSheet.gear.possessions.items[String(item)].wt;
 
 		totalWeightCarried += wt;

@@ -72,7 +72,7 @@ function populateAbilites(){
 	var ability_score;
 	var ability_mod;
 	var temp_score;
-	var temp_mod; 
+	var temp_mod;
 
 	for( ability in currentSheet.ability_name){
 
@@ -92,7 +92,7 @@ function populateAbilites(){
 
 function populateSavingThrows(){
 
-	var currentSheet = sheet;	
+	var currentSheet = sheet;
 
 	var baseSave;
 	var ability_mod;
@@ -162,13 +162,13 @@ function populateAC(){
 	var misc_mod;
 	var damage_reduction;
 
-	armor_bonus   = currentSheet.armor_class.armor_bonus;
-	shield_bonus  = currentSheet.armor_class.shield_bonus; 
-	dex_mod 	  = currentSheet.armor_class.dex_mod;
-	size_mod      = currentSheet.armor_class.size_mod;
-	natural_armor = currentSheet.armor_class.natural_armor;
-	defelection   = currentSheet.armor_class.defelection;
-	misc_mod      = currentSheet.armor_class.misc_mod; 
+	armor_bonus   	 = currentSheet.armor_class.armor_bonus;
+	shield_bonus  	 = currentSheet.armor_class.shield_bonus;
+	dex_mod 	     = currentSheet.armor_class.dex_mod;
+	size_mod         = currentSheet.armor_class.size_mod;
+	natural_armor    = currentSheet.armor_class.natural_armor;
+	defelection      = currentSheet.armor_class.defelection;
+	misc_mod         = currentSheet.armor_class.misc_mod;
 	damage_reduction = currentSheet.damage_reduction;
 
 	document.getElementById("Health").childNodes[3].childNodes[11].childNodes[1].value = armor_bonus;
@@ -187,10 +187,10 @@ function populateTFI(){
 
 	var currentSheet = sheet;
 
-	var touch = currentSheet.touch;
+	var touch  		= currentSheet.touch;
 	var flat_footed = currentSheet.flat_footed;
-	var dex_mod  = currentSheet.initiative.dex_mod;
-	var misc_mod = currentSheet.initiative.misc_mod;
+	var dex_mod  	= currentSheet.initiative.dex_mod;
+	var misc_mod 	= currentSheet.initiative.misc_mod;
 
 	document.getElementById("TFI").childNodes[1].childNodes[5].childNodes[0].value = touch;
 	document.getElementById("TFI").childNodes[1].childNodes[9].childNodes[0].value = flat_footed;
@@ -219,7 +219,7 @@ function populateBSRG(){
 	document.getElementById("BSRG").childNodes[1].childNodes[3].childNodes[3].childNodes[0].value = base_attack_bonus;
 	document.getElementById("BSRG").childNodes[1].childNodes[3].childNodes[7].childNodes[0].value = spell_resistance;
 
-	document.getElementById("BSRG").childNodes[1].childNodes[13].childNodes[1].value = base_attack_bonus; 
+	document.getElementById("BSRG").childNodes[1].childNodes[13].childNodes[1].value = base_attack_bonus;
 	document.getElementById("BSRG").childNodes[1].childNodes[17].childNodes[1].value = strength_mod;
 	document.getElementById("BSRG").childNodes[1].childNodes[21].childNodes[1].value = size_mod;
 	document.getElementById("BSRG").childNodes[1].childNodes[25].childNodes[1].value = misc_mod;
@@ -231,7 +231,7 @@ function populateAttack(){
 
 
 	var currentSheet = sheet;
-	
+
 	var attack;
 	var attack_bonus;
 	var damage;
@@ -241,19 +241,16 @@ function populateAttack(){
 	var notes;
 	var ammo;
 
-    //1,3,5
-    //1,3,5,7
-
     for(currentAttack in currentSheet.attack){
 
-		attack = currentSheet.attack[String(currentAttack)].attack;
+		attack  	 = currentSheet.attack[String(currentAttack)].attack;
 		attack_bonus = currentSheet.attack[String(currentAttack)].attack_bonus;
-		damage = currentSheet.attack[String(currentAttack)].damage;
-		critical = currentSheet.attack[String(currentAttack)].critical;
-		range = currentSheet.attack[String(currentAttack)].range;
-		type = currentSheet.attack[String(currentAttack)].type;
-		notes = currentSheet.attack[String(currentAttack)].notes;
-		ammo = currentSheet.attack[String(currentAttack)].ammunation;
+		damage 	     = currentSheet.attack[String(currentAttack)].damage;
+		critical 	 = currentSheet.attack[String(currentAttack)].critical;
+		range 		 = currentSheet.attack[String(currentAttack)].range;
+		type 		 = currentSheet.attack[String(currentAttack)].type;
+		notes 		 = currentSheet.attack[String(currentAttack)].notes;
+		ammo 		 = currentSheet.attack[String(currentAttack)].ammunation;
 		/*
 			1st row
 		*/
@@ -275,7 +272,7 @@ function populateAttack(){
     	document.getElementsByClassName(String(currentAttack))[0].childNodes[5].childNodes[1].childNodes[3].childNodes[1].value = ammo;
 
 
-	}	
+	}
 
 
 
@@ -305,10 +302,10 @@ function populateCampaignEXP(){
 
 
 	campaign = currentSheet.campaign;
-	exp = currentSheet.experience_points;
+	exp 	 = currentSheet.experience_points;
 
 	document.getElementsByName("campaign")[0].value = campaign;
-	document.getElementsByName("exp")[0].value = exp;
+	document.getElementsByName("exp")[0].value	    = exp;
 
 }
 
@@ -327,23 +324,23 @@ function populateGear(){
 	var weight;
 	var special_properties;
 
-	name = currentSheet.gear.armor_item.name;	
-	type = currentSheet.gear.armor_item.type;
-	ac_bonus = currentSheet.gear.armor_item.ac_bonus;
-	max_dex = currentSheet.gear.armor_item.max_dex;
-	check_penalty = currentSheet.gear.armor_item.check_penalty;
-	spell_failure = currentSheet.gear.armor_item.spell_failure;
-	speed = currentSheet.gear.armor_item.speed;
-	weight = currentSheet.gear.armor_item.weight;
+	name 			   = currentSheet.gear.armor_item.name;
+	type 			   = currentSheet.gear.armor_item.type;
+	ac_bonus 		   = currentSheet.gear.armor_item.ac_bonus;
+	max_dex 		   = currentSheet.gear.armor_item.max_dex;
+	check_penalty 	   = currentSheet.gear.armor_item.check_penalty;
+	spell_failure 	   = currentSheet.gear.armor_item.spell_failure;
+	speed 			   = currentSheet.gear.armor_item.speed;
+	weight 			   = currentSheet.gear.armor_item.weight;
 	special_properties = currentSheet.gear.armor_item.special_properties;
 
 	//	armor item	1,3,5,7
-	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = name; 
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[1].childNodes[3].childNodes[1].value = name;
 	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[3].childNodes[3].childNodes[1].value = type;
 	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[5].childNodes[3].childNodes[1].value = ac_bonus;
 	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[1].childNodes[7].childNodes[3].childNodes[1].value = max_dex;
 
-	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[1].childNodes[3].childNodes[1].value = check_penalty; 
+	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[1].childNodes[3].childNodes[1].value = check_penalty;
 	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[3].childNodes[3].childNodes[1].value = spell_failure;
 	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[5].childNodes[3].childNodes[1].value = speed;
 	document.getElementsByName("gear")[0].childNodes[1].childNodes[11].childNodes[3].childNodes[7].childNodes[3].childNodes[1].value = weight;
@@ -351,11 +348,11 @@ function populateGear(){
 
 	// shield item
 
-	name = currentSheet.gear.shield_item.name;
-	ac_bonus = currentSheet.gear.shield_item.ac_bonus;
-	weight = currentSheet.gear.shield_item.weight;
-	check_penalty = currentSheet.gear.shield_item.check_penalty;
-	spell_failure = currentSheet.gear.shield_item.spell_failure;
+	name 			   = currentSheet.gear.shield_item.name;
+	ac_bonus 		   = currentSheet.gear.shield_item.ac_bonus;
+	weight 			   = currentSheet.gear.shield_item.weight;
+	check_penalty 	   = currentSheet.gear.shield_item.check_penalty;
+	spell_failure 	   = currentSheet.gear.shield_item.spell_failure;
 	special_properties = currentSheet.gear.shield_item.special_properties;
 
 
@@ -406,7 +403,7 @@ function populateOtherPossessions(){
 	var wt;
 
 	for(item in currentSheet.gear.possessions.items){
-			
+
 
 		if(String(item).length === 6){
 			itemNum = String(item)[5];
@@ -472,4 +469,3 @@ function populateLanguages(){
 	}
 
 }
-
