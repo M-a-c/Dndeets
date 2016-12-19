@@ -70,7 +70,7 @@ function storageBio(currentSheet){
 	currentSheet.eyes           =  document.getElementsByName("EYES")[0].value
 	currentSheet.hair           =  document.getElementsByName("HAIR")[0].value
 	currentSheet.skin           =  document.getElementsByName("SKIN")[0].value
-    currentSheet.class + "," + String(currentSheet.level) = document.getElementsByName("classAndLevel")[0].value
+    // currentSheet.class + "," + String(currentSheet.level) = document.getElementsByName("classAndLevel")[0].value
 
 }
 
