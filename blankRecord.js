@@ -13,38 +13,40 @@ var blankSheet = {
 		BASIC CHARACTER INFORMATION
 	*/
 
-	"character_name": "",
+	"info" :{
 
-	"player": "",
+		"character_name": "",
 
-	"class": "",
+		"player": "",
 
-	"level": 0,
+		"class": "",
 
-	"career_level": 0,
+		"level": 0,
 
-	"race": "",
+		"career_level": 0,
 
-	"alignment": "",
+		"race": "",
 
-	"deity": "",
+		"alignment": "",
 
-	"size": "",
+		"deity": "",
 
-	"age": 0,
+		"size": "",
 
-	"gender": "",
+		"age": 0,
 
-	"height": 0,
+		"gender": "",
 
-	"weight": 0,
+		"height": 0,
 
-	"eyes": "",
+		"weight": 0,
 
-	"hair": "",
+		"eyes": "",
 
-	"skin": "",
+		"hair": "",
 
+		"skin": "",
+	},
 
 	/*
 		Ability Names
