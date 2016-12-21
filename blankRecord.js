@@ -13,40 +13,37 @@ var blankSheet = {
 		BASIC CHARACTER INFORMATION
 	*/
 
-	"info" :{
+	"character_name": "",
 
-		"character_name": "",
+	"player": "",
 
-		"player": "",
+	"class": "",
 
-		"class": "",
+	"level": 0,
 
-		"level": 0,
+	"career_level": 0,
 
-		"career_level": 0,
+	"race": "",
 
-		"race": "",
+	"alignment": "",
 
-		"alignment": "",
+	"deity": "",
 
-		"deity": "",
+	"size": "",
 
-		"size": "",
+	"age": 0,
 
-		"age": 0,
+	"gender": "",
 
-		"gender": "",
+	"height": 0,
 
-		"height": 0,
+	"weight": 0,
 
-		"weight": 0,
+	"eyes": "",
 
-		"eyes": "",
+	"hair": "",
 
-		"hair": "",
-
-		"skin": "",
-	},
+	"skin": "",
 
 	/*
 		Ability Names
@@ -105,9 +102,10 @@ var blankSheet = {
 
 	"hit_points": {
 
-		"total": 0,
+		"total_HP": 0,
 		"current_HP": 0,
 		"non_lethal_damage": 0,
+		"wounds": 0
 
 	},
 
@@ -126,16 +124,9 @@ var blankSheet = {
 		"natural_armor": 0,
 		"defelection": 0,
 		"misc_mod": 0,
+		"damage_reduction": 0,
 
 	},
-
-
-	/*
-		Damage reduction
-	*/
-
-	"damage_reduction": 0,
-
 
 	/*
 		Speed
