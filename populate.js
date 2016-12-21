@@ -98,7 +98,7 @@ function populateAbilites(){
 // 		document.getElementsByName(String(ability)).value = temp_mod;
 //
 // 	}
-// }
+}
 
 function populateSavingThrows(){
 
