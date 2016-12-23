@@ -11,7 +11,7 @@ var ProperListRender = React.createClass({
 
 
         console.log(this.props.data);
-    
+
         function test(){
 
             return <div>dog</div>
