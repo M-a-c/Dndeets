@@ -4,8 +4,11 @@ import App from './App';
 import './index.css';
 import blanksheet from './blankRecord'
 
+
 var ProperListRender = React.createClass({
+
     render: function() {
+
 
         console.log(this.props.data);
     
@@ -14,6 +17,8 @@ var ProperListRender = React.createClass({
             return <div>dog</div>
         }
 
+        document.title = "Dndeets!";
+
         return (
           <div>
           {test()}
@@ -21,7 +26,7 @@ var ProperListRender = React.createClass({
         )
   }
 });
-
+//Fyi <App /> is like a funciton call to create the App object as identified above.
 ReactDOM.render(
   <App />,
   document.getElementById('root')
