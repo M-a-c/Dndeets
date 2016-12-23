@@ -1,0 +1,301 @@
+/*Stylen on you*/
+body{
+	display: block;
+	margin: 0px;
+}
+br{
+	clear: both;
+	width: 100%;
+}
+div{
+	position: relative;
+	/*border: solid;*/
+	/*display: block;*/
+	/*border-color: white;*/
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+input{
+	width: 100%;
+	padding: 0px;
+}
+
+#container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+
+}
+#skills{
+	margin-top:-100px;
+	margin-right: 0px;
+	width: 40%;
+	display: table;
+	margin-right: 0px;
+	float: right;
+}
+#Health{
+	margin-right: 0px;
+	width: 100%;
+	display: table;
+	margin-right: 0px;
+	float: right;
+
+}
+#TFI{
+	width: 40%;
+	margin-right: 0px;
+	display: block;
+	margin-right: 0px;
+	float: left;
+}
+#Saves{
+	width: 59%;
+	display: table;
+	float: left;
+	padding-top:10px;
+}
+#BSRG{
+	width: 59%;
+	display: table;
+	float: left;
+	padding-top:10px;
+}
+#attacksContainer{
+	width: 59%;
+	display: block;
+	float: left;
+	padding-top:10px;
+}
+
+.top{
+	display: inline-block;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.abilities{
+	display: inline-block;
+	width: 31%;
+	padding:0px;
+	font-size: 0.5em; /* 14px/16=0.875em */
+}
+
+.container{
+	display:inline-block;
+	padding:0px;
+	width: 100%;
+}
+.containerSM{
+	display:inline-block;
+	padding:0px;
+	width: 100%;
+}
+.containerBlock{
+	display:block;
+	padding:0px;
+	width: 100%;
+}
+.containerBlockSM{
+	display:block;
+	padding:0px;
+	width: 74%;
+}
+.savingText{
+	font-size: .4em;
+}
+
+.center{
+	padding:0px;
+	text-align: center;
+	display: block;
+}
+
+.boldWhite{
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+
+.boldBlack{
+	font-weight: bold;
+}
+
+
+.left{
+	float: left;
+	margin-right:10px;
+}
+
+.leftSM{
+	float: left;
+	margin-right:2px;
+}
+
+.leftNone{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearLine{
+	clear:both;
+	padding-top: 30px;
+}
+
+.blackBox{
+	background-color: black;
+	border: solid;
+	padding: 0px;
+	border-color: black;
+	color: white;
+}
+.blackBoxAttack{
+	background-color: black;
+	/*border: solid;*/
+	/*padding: 0px;*/
+	border: none;
+	border-color: black;
+	color: white;
+}
+
+.noBottomBorder{
+	border-bottom-color: white;
+}
+
+
+.largeLine {
+	width: 40%;
+}
+.mediumPlus{
+	width: 20%;
+}
+.mediumLine {
+	width: 10%;
+}
+.smallLine {
+	width: 8%;
+}
+
+.extraSmallLine {
+	width: 14%;
+		/*text-align:center;*/
+}
+.checkBox{
+	width: inherit;
+	padding: 3px;
+}
+.verticalText{
+	text-transform: rotate(90deg);
+	transform: rotate(90deg);
+	text-transform-origin: left top 0;
+	transform-origin: left top 0;
+}
+.inlineTable{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+.leftCol{
+	display: block;
+	position: relative;
+	float: left;
+	max-width: 40%;
+}
+.rightCol{
+	display: block;
+	position: relative;
+	float: right;
+	max-width: 65%;
+}
+.smallNumbers{
+	width: 30px;
+}
+.keyAbility{
+	width:50px;
+}
+.smallPad{
+	margin-top: 10px;
+}
+.none{
+	display:none;
+}
+.hidden{
+	visibility:hidden;
+}
+.five{
+	width:5%;
+}
+.seven{
+	width:7%;
+}
+.ten{
+	width:10%;
+}
+.fourteen{
+	width:14%;
+}
+.fifteen{
+	width:15%;
+}
+.twenty{
+	width:20%;
+}
+.twentyfive{
+	width:25%;
+}
+.thirty{
+	width:30%;
+}
+.thirtyfive{
+	width:30%;
+}
+.thirtysix{
+	width:36%;
+}
+.forty{
+	width:40%;
+}
+.fortythree{
+	width:43%;
+}
+.fortyfive{
+	width:45%;
+}
+.fifty{
+	width:50%;
+}
+.sixtyfive{
+	width:65%;
+}
+.attack_1{
+	padding-top:30px;
+}
+.attack_2{
+	padding-top:30px;
+}
+.attack_3{
+	padding-top:30px;
+}
+.attack_4{
+	padding-top:30px;
+}
+.attack_5{
+	padding-top:30px;
+}
+.armor{
+	padding-top: 25px;
+}
+.shield{
+	padding-top: 25px;
+}
+.protective_item_1{
+	padding-top: 25px;
+}
+.protective_item_2{
+	padding-top: 25px;
+}
+
+/**/

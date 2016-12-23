@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-//Im going to work on this but here is a base.
+
+/**
+  * Input compontent which will serve as any input field element
+  * i.g if an input field is needed use this component. If text is needed with the input field use Label.js
+  * Use with : Label.js, Container.js
+  */
 
 class Input extends Component {
-  
+
   //BTW if you want to require a prop to have something like for construciton you can just put
   // .isRequired after the PropTypes.XXXX.isRequired
   // That will force you to have to add the prop type before the object will be created
-
 
   //Types are
   // React.PropTypes.array < in certain cases this can also be used for json
@@ -19,18 +23,16 @@ class Input extends Component {
   // React.PropTypes.symbol
   // React.PropTypes.any  < this one is dangerious but is kinda catch all.
 
-  // Json can get annoying with arrays required etc http://stackoverflow.com/questions/32325912/react-proptype-array-with-shape 
+  // Json can get annoying with arrays required etc http://stackoverflow.com/questions/32325912/react-proptype-array-with-shape
 
-
-  propTypes = {
-    Name: React.PropTypes.string,
-  };
-
+  // TODO: Leave this as an input component only. Label.js for titles/labels/text etc.. whatever you want to call it.
+  // propTypes = {
+    // Name: React.PropTypes.string,
+  // };
 
   render() {
     return (
       <div>
-      {this.props.Name ? <span>{this.props.Name}</span> : null}
       <input></input>
       </div>
     );

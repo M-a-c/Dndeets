@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Input from './Input.js';
+import './stylesheet.css';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Input Name="hi" />
         <Input/>
       </div>
+
     );
   }
 }
