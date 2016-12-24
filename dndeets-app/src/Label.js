@@ -22,4 +22,4 @@ class Label extends Component {
   }
 }
 
-export default Input;
+export default Label;

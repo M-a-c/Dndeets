@@ -16,4 +16,4 @@ class Container extends Component {
   }
 }
 
-export default Input;
+export default Container;
