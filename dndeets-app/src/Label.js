@@ -10,7 +10,7 @@ import './App.css';
 class Label extends Component {
 
   propTypes = {
-    Text: React.PropTypes.string,
+    Text: React.PropTypes.string.isRequired,
   };
 
   render() {

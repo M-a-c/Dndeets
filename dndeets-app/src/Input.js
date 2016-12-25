@@ -26,14 +26,21 @@ class Input extends Component {
   // Json can get annoying with arrays required etc http://stackoverflow.com/questions/32325912/react-proptype-array-with-shape
 
   // TODO: Leave this as an input component only. Label.js for titles/labels/text etc.. whatever you want to call it.
-  // propTypes = {
-    // Name: React.PropTypes.string,
-  // };
+  static propTypes = {
+    callback: React.PropTypes.func.isRequired,
+  };
+
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     color: null
+  //   };
+  // }
 
   render() {
     return (
       <div>
-      <input></input>
+      <input onChange={(event) => {this.props.callback(event.target.value)}}></input>
       </div>
     );
   }
