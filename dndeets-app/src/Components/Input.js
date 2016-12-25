@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
-
 /**
   * Input compontent which will serve as any input field element
   * i.g if an input field is needed use this component. If text is needed with the input field use Label.js
