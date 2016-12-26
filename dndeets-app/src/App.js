@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Input from './Components/Input.js';
+import Label from './Components/Label.js';
+import blankSheet from './blankRecord.js';
+
 import './stylesheet.css';
 
 class App extends Component {
@@ -28,6 +31,18 @@ class App extends Component {
  
   render() {
 
+    var inputs = [];
+    console.log(Object.keys(blankSheet["info"]).length);//This is how many keys there are.
+    var keylen = Object.keys(blankSheet["info"]).length;
+    for (var i = 0; i < keylen; i++) {
+      var string = Object.keys(blankSheet["info"])[i];
+      var UniqueKey1 = (i*2)+1;//odd
+      var UniqueKey2 = (i*2);//even
+      //I would probably push this down to another container so they would format nicely, and the container type would create them nicer.
+      inputs.push(<Label Text={string} key={UniqueKey1} />);
+      inputs.push(<Input callback={this.callback.bind(this)} key={UniqueKey2} />);
+    }
+
     return (
       <div className="App">
         <div className="App-header">
@@ -44,6 +59,7 @@ class App extends Component {
         <div id="info"></div>
         {/* If you chage state you need to bind it to this instance, it should make sense why you need to bind it to this object's state */}        <Input callback={this.callback.bind(this)} />
         <Input callback={this.callback.bind(this)} />
+        {inputs}
       </div>
 
     );

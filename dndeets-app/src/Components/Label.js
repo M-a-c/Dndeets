@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 
 /**
   * Label compontent which will serve as any text on the page.
@@ -9,7 +8,7 @@ import './App.css';
 
 class Label extends Component {
 
-  propTypes = {
+  static propTypes = {
     Text: React.PropTypes.string.isRequired,
   };
 
