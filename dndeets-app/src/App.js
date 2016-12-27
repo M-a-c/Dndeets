@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Input from './Components/Input.js';
-// import Label from './Components/Label.js';
-// import blankSheet from './blankRecord.js';
+import blankSheet from './blankRecord.js';
 import CharacterInfo from './Containers/CharacterInfo.js';
 import './stylesheet.css';
 
@@ -30,27 +29,23 @@ class App extends Component {
 
   render() {
 
-      // var inputs = [];
-      // console.log(Object.keys(blankSheet.info).length);//This is how many keys there are.
-      //
-      // var keylen = Object.keys(blankSheet.info).length;
-      //
-      // for (var i = 0; i < keylen; i++) {
-      //
-      //   var keyString = Object.keys(blankSheet.info)[i];
-      //   var UniqueKey1 = (i*2)+1;//odd
-      //   var UniqueKey2 = (i*2);//even
-      //   var value = blankSheet.info[keyString];
-      //   var type = typeof(value);
-      //
-      //   //I would probably push this down to another container so they would format nicely, and the container type would create them nicer.
-      //   inputs.push(<Label Text={keyString} key={UniqueKey1} />);
-      //   inputs.push(<Input callback={this.callback.bind(this)} value={value} type={type} key={UniqueKey2} />);
-      //
-      // }
+      var CHARACTER_INFO = [];
 
-    var CHARACTER_INFO = [];
-    CHARACTER_INFO.push(<CharacterInfo callback={this.callback.bind(this)} text="dog" value="house" type="string" key="1"/>)
+      var keylen = Object.keys(blankSheet.info).length;
+
+      for (var i = 0; i < keylen; i++) {
+
+        var keyString = Object.keys(blankSheet.info)[i];
+        var UniqueKey1 = (i*2)+1;//odd
+        var UniqueKey2 = (i*2);//even
+        var value = blankSheet.info[keyString];
+        var type = typeof(value);
+
+        //I would probably push this down to another container so they would format nicely, and the container type would create them nicer.
+        CHARACTER_INFO.push(<CharacterInfo callback={this.callback.bind(this)} text={keyString} value={value} type={type} key={i} keys={[UniqueKey1,UniqueKey2]}/>)
+
+      }
+
 
     return (
       <div className="App">

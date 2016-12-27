@@ -18,6 +18,7 @@ import Label from '../Components/Label.js';
 class CharacterInfo extends Container {
 
   static propTypes = {
+    keys: React.PropTypes.array.isRequired,
     text: React.PropTypes.string.isRequired,
     type: React.PropTypes.string.isRequired,
     value: React.PropTypes.any.isRequired,
@@ -27,8 +28,8 @@ class CharacterInfo extends Container {
   render() {
     return (
       <div className="largeLine left">
-        <Input cssClasses="left" callback={this.props.callback} type={this.props.type} value={this.props.value}></Input>
-        <Label Text={this.props.text} cssClasses="left"></Label>
+        <Input cssClasses="left" callback={this.props.callback} type={this.props.type} value={this.props.value} key={this.props.keys[0]}></Input>
+        <Label Text={this.props.text} cssClasses="left" key={this.props.keys[1]}></Label>
       </div>
     );
   }
