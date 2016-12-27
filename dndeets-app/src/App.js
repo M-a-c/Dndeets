@@ -49,19 +49,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-          <h2>Current Input {this.state.currentInput}</h2>
-          {/* This is where im setting the state. */}
-          {/* Also this is how you write comments in the render funciton i know its kinda garbage. */}
 
+        <div className="top">
+            {CHARACTER_INFO}
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to meme.
-        </p>
-
-        {CHARACTER_INFO}
 
       </div>
     );
