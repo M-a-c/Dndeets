@@ -26,6 +26,9 @@ class Input extends Component {
   // TODO: Leave this as an input component only. Label.js for titles/labels/text etc.. whatever you want to call it.
   static propTypes = {
     callback: React.PropTypes.func.isRequired,
+    type: React.PropTypes.string.isRequired,
+    cssClasses: React.PropTypes.string.isRequired,
+    value: React.PropTypes.any.isRequired
   };
 
   // constructor(props) {
@@ -38,7 +41,7 @@ class Input extends Component {
   render() {
     return (
       <div>
-      <input onChange={(event) => {this.props.callback(event.target.value)}}></input>
+      <input className={this.props.cssClasses} value={this.props.value} type={this.props.type} onChange={(event) => {this.props.callback(event.target.value)}}></input>
       </div>
     );
   }

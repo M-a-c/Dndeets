@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
-import './App.css';
+import '../App.css';
+import Container from './Container.js';
+import Input from '../Components/Input.js';
+import Label from '../Components/Label.js';
 
 /**
   * Label compontent which will serve as any text on the page.
@@ -8,19 +11,27 @@ import './App.css';
   * Use with : Input.js, Container.js
   */
 
-class Label extends Container {
+/**
+  * Creates the container for character info elements
+  */
 
-  propTypes = {
-    Text: React.PropTypes.string.isRequired,
+class CharacterInfo extends Container {
+
+  static propTypes = {
+    text: React.PropTypes.string.isRequired,
+    type: React.PropTypes.string.isRequired,
+    value: React.PropTypes.any.isRequired,
+    callback: React.PropTypes.func.isRequired
   };
 
   render() {
     return (
-      <div>
-      {this.props.Text ? <span>{this.props.Text}</span> : null}
+      <div className="largeLine left">
+        <Input cssClasses="left" callback={this.props.callback} type={this.props.type} value={this.props.value}></Input>
+        <Label Text={this.props.text} cssClasses="left"></Label>
       </div>
     );
   }
 }
 
-export default Label;
+export default CharacterInfo;

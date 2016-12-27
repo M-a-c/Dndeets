@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Input from './Components/Input.js';
-import Label from './Components/Label.js';
-import blankSheet from './blankRecord.js';
-
+// import Label from './Components/Label.js';
+// import blankSheet from './blankRecord.js';
+import CharacterInfo from './Containers/CharacterInfo.js';
 import './stylesheet.css';
 
 class App extends Component {
@@ -18,7 +18,6 @@ class App extends Component {
     };
   }
 
-
   //This is a callback function.
   callback(e){
     this.setState({currentInput:e});
@@ -28,20 +27,30 @@ class App extends Component {
   //We will have The main components in here
   //The main components will contain sub components,
   //the main components should call up to the top to save everything. and change the main state.
- 
+
   render() {
 
-    var inputs = [];
-    console.log(Object.keys(blankSheet["info"]).length);//This is how many keys there are.
-    var keylen = Object.keys(blankSheet["info"]).length;
-    for (var i = 0; i < keylen; i++) {
-      var string = Object.keys(blankSheet["info"])[i];
-      var UniqueKey1 = (i*2)+1;//odd
-      var UniqueKey2 = (i*2);//even
-      //I would probably push this down to another container so they would format nicely, and the container type would create them nicer.
-      inputs.push(<Label Text={string} key={UniqueKey1} />);
-      inputs.push(<Input callback={this.callback.bind(this)} key={UniqueKey2} />);
-    }
+      // var inputs = [];
+      // console.log(Object.keys(blankSheet.info).length);//This is how many keys there are.
+      //
+      // var keylen = Object.keys(blankSheet.info).length;
+      //
+      // for (var i = 0; i < keylen; i++) {
+      //
+      //   var keyString = Object.keys(blankSheet.info)[i];
+      //   var UniqueKey1 = (i*2)+1;//odd
+      //   var UniqueKey2 = (i*2);//even
+      //   var value = blankSheet.info[keyString];
+      //   var type = typeof(value);
+      //
+      //   //I would probably push this down to another container so they would format nicely, and the container type would create them nicer.
+      //   inputs.push(<Label Text={keyString} key={UniqueKey1} />);
+      //   inputs.push(<Input callback={this.callback.bind(this)} value={value} type={type} key={UniqueKey2} />);
+      //
+      // }
+
+    var CHARACTER_INFO = [];
+    CHARACTER_INFO.push(<CharacterInfo callback={this.callback.bind(this)} text="dog" value="house" type="string" key="1"/>)
 
     return (
       <div className="App">
@@ -56,12 +65,10 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to meme.
         </p>
-        <div id="info"></div>
-        {/* If you chage state you need to bind it to this instance, it should make sense why you need to bind it to this object's state */}        <Input callback={this.callback.bind(this)} />
-        <Input callback={this.callback.bind(this)} />
-        {inputs}
-      </div>
 
+        {CHARACTER_INFO}
+
+      </div>
     );
   }
 }

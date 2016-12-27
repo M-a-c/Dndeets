@@ -10,12 +10,13 @@ class Label extends Component {
 
   static propTypes = {
     Text: React.PropTypes.string.isRequired,
+    cssClasses: React.PropTypes.string.isRequired
   };
 
   render() {
     return (
       <div>
-      {this.props.Text ? <span>{this.props.Text}</span> : null}
+      {this.props.Text ? <span className={this.props.cssClasses}>{this.props.Text}</span> : null}
       </div>
     );
   }
